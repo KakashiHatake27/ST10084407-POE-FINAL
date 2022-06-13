@@ -31,5 +31,15 @@ namespace PoePartThreeFinal
         {
 
         }
+
+        private void NavView_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NavView_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)
+        {
+
+        }
     }
 }
