@@ -12,7 +12,21 @@
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
+      <RootProperty Name="Background" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Inlines" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
+      <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
+    </RootType>
+    <RootType FullName="PoePartThreeFinal.Home" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="PaneDisplayMode" />
       <RootProperty Name="IsBackEnabled" />
@@ -43,5 +57,7 @@
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.MainPage" />
+    <RootType FullName="PoePartThreeFinal.Residential" />
+    <RootType FullName="PoePartThreeFinal.Vehicle" />
   </Roots.RootTypes>
 </Roots>
