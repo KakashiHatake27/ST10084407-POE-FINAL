@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -38,9 +39,30 @@ namespace PoePartThreeFinal
                     case "page1": ContentFrame.Navigate(typeof(Home)); break;
                     case "page2": ContentFrame.Navigate(typeof(Vehicle)); break;
                     case "page3": ContentFrame.Navigate(typeof(Residential)); break;
-                    case "page4": ContentFrame.Navigate(typeof(Vehicle)); break;
+                    case "page4": ExitPrompt(); break;
                 }
             }
+        }
+
+        private async void ExitPrompt() {
+            MessageDialog showDialog = new MessageDialog("Are you sure you want to close the application?", "Exit");
+            showDialog.Commands.Add(new UICommand("Yes")
+            {
+                Id = 0
+            });
+            showDialog.Commands.Add(new UICommand("No")
+            {
+                Id = 1
+            });
+            showDialog.DefaultCommandIndex = 0;
+            showDialog.CancelCommandIndex = 1;
+            var result = await showDialog.ShowAsync();
+            if ((int)result.Id == 0)
+            {
+               Application.Current.Exit();
+            }
+            
+
         }
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
