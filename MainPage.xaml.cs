@@ -31,6 +31,8 @@ namespace PoePartThreeFinal
         public MainPage()
         {
             this.InitializeComponent();
+
+
         }
 
         //private async Task<bool> OpenPageAsWindowAsync(Type t)
