@@ -6,7 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    >
 
     <Grid>
         <NavigationView x:ConnectionId='2' x:Name="NavView" 
@@ -20,32 +21,42 @@
 
             <NavigationView.MenuItems>
 
-                <NavigationViewItem Icon="Home" Content="Home" Tag ="page1"/>
+                <NavigationViewItem Icon="Home" Content="Home" Tag ="pgHome"/>
 
-                <NavigationViewItem Content="Vehicle" Tag="page2">
+                <NavigationViewItem Content="Vehicle" Tag="pgVehicle">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/car.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-                <NavigationViewItem Content="Housing" Tag="page3">
+                <NavigationViewItem Content="Residential" Tag="pgResidential">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/home.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-                <NavigationViewItem Content="Exit" Tag="page4">
+                <!--<NavigationViewItem Content="Exit" Tag="page4">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="Assets/Icons/exit.ico"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>-->
+
+            </NavigationView.MenuItems>
+
+            
+            <NavigationView.PaneFooter>
+
+                <NavigationViewItem x:ConnectionId='3' Content="Exit"                                    Tag="pgExit">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/exit.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-            </NavigationView.MenuItems>
-
+            </NavigationView.PaneFooter>
 
 
             <ScrollViewer>
-                <Frame x:ConnectionId='3' x:Name="ContentFrame" Background="#FF0D0101" Foreground="#FF030000" ></Frame>
+                <Frame x:ConnectionId='4' x:Name="ContentFrame" Background="#FF0D0101" Foreground="#FF030000" ></Frame>
             </ScrollViewer>
 
         </NavigationView>

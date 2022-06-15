@@ -58,3 +58,8 @@ C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Residential.xaml
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Vehicle.xaml
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Residential.xbf
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Vehicle.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.i.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xaml
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xbf

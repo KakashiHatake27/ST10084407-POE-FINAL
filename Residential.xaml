@@ -15,7 +15,7 @@
                 <Grid.Background>
 
                     <ImageBrush x:Name="_img_bg"
-                    ImageSource="Assets/Img/bg2.jpg"
+                    ImageSource="Assets/Img/ResidentialBg.jpg"
                             Stretch="Fill"/>
 
                 </Grid.Background>
@@ -26,7 +26,7 @@
 
         </Grid>
         <TextBlock FontSize="72" HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" Foreground="Black" FontWeight="ExtraBold"
+                   VerticalAlignment="Center" Foreground="White" FontWeight="ExtraBold"
                    >Residential Section</TextBlock>
     </Grid>
 </Page>

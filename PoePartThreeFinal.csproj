@@ -122,6 +122,9 @@
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoadingScreen.xaml.cs">
+      <DependentUpon>LoadingScreen.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -145,6 +148,16 @@
     <Content Include="Assets\Icons\exit.ico" />
     <Content Include="Assets\Icons\home.ico" />
     <Content Include="Assets\Icons\money.ico" />
+    <Content Include="Assets\Img\CarBg.jpg" />
+    <Content Include="Assets\Img\CarBg2.jpg" />
+    <Content Include="Assets\Img\LoadingScreen.png" />
+    <Content Include="Assets\Img\LoadingScreen4.png" />
+    <Content Include="Assets\Img\LoadingScreenold.png" />
+    <Content Include="Assets\Img\ResidentialBg.jpg" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-125.png" />
+    <Content Include="Assets\SplashScreen.scale-150.png" />
+    <Content Include="Assets\SplashScreen.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -160,6 +173,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoadingScreen.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

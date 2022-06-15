@@ -3,9 +3,14 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading;
+using System.Threading.Tasks;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Core;
 using Windows.UI.Popups;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -28,6 +33,24 @@ namespace PoePartThreeFinal
             this.InitializeComponent();
         }
 
+        //private async Task<bool> OpenPageAsWindowAsync(Type t)
+        //{
+
+        //    var view = CoreApplication.CreateNewView();
+        //    int id = 0;
+
+        //    await view.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
+        //    {
+        //        var frame = new Frame();
+        //        frame.Navigate(t, null);
+        //        Window.Current.Content = frame;
+        //        Window.Current.Activate();
+        //        id = ApplicationView.GetForCurrentView().Id;
+        //    });
+
+        //    return await ApplicationViewSwitcher.TryShowAsStandaloneAsync(id);
+        //}
+
         private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
             if (!args.IsSettingsSelected)
@@ -36,15 +59,15 @@ namespace PoePartThreeFinal
 
                 switch (item.Tag.ToString())
                 {
-                    case "page1": ContentFrame.Navigate(typeof(Home)); break;
-                    case "page2": ContentFrame.Navigate(typeof(Vehicle)); break;
-                    case "page3": ContentFrame.Navigate(typeof(Residential)); break;
-                    case "page4": ExitPrompt(); break;
+                    case "pgHome": ContentFrame.Navigate(typeof(Home)); break;
+                    case "pgVehicle": ContentFrame.Navigate(typeof(Vehicle)); break;
+                    case "pgResidential": ContentFrame.Navigate(typeof(Residential)); break;
                 }
             }
         }
 
         private async void ExitPrompt() {
+
             MessageDialog showDialog = new MessageDialog("Are you sure you want to close the application?", "Exit");
             showDialog.Commands.Add(new UICommand("Yes")
             {
@@ -67,13 +90,23 @@ namespace PoePartThreeFinal
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
+            //ContentFrame.Navigate(typeof(LoadingScreen));
+
+            //Thread.Sleep(5000);
+            
             ContentFrame.Navigate(typeof(Home));
+
         }
 
         private void NavView_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)
         {
             if (ContentFrame.CanGoBack)
                 ContentFrame.GoBack();
+        }
+
+        private void NavigationViewItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            ExitPrompt();
         }
     }
 }

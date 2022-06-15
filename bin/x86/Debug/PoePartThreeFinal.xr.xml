@@ -13,6 +13,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="Background" />
+      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="FontSize" />
@@ -25,13 +26,16 @@
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
       <RootProperty Name="Stretch" />
+      <RootEvent Name="ImageOpened" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.Home" />
+    <RootType FullName="PoePartThreeFinal.LoadingScreen" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="PaneDisplayMode" />
       <RootProperty Name="IsBackEnabled" />
       <RootProperty Name="IsSettingsVisible" />
       <RootProperty Name="MenuItems" />
+      <RootProperty Name="PaneFooter" />
       <RootProperty Name="Content" />
       <RootEvent Name="Loaded" />
       <RootEvent Name="SelectionChanged" />
@@ -45,6 +49,7 @@
       <RootProperty Name="Icon" />
       <RootProperty Name="Content" />
       <RootProperty Name="Tag" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
       <RootProperty Name="UriSource" />

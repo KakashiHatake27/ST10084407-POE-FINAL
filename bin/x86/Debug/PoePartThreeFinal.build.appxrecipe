@@ -40,6 +40,15 @@
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\bg2.jpg">
       <PackagePath>Assets\Img\bg2.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\CarBg.jpg">
+      <PackagePath>Assets\Img\CarBg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\CarBg2.jpg">
+      <PackagePath>Assets\Img\CarBg2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\ResidentialBg.jpg">
+      <PackagePath>Assets\Img\ResidentialBg.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\car.ico">
       <PackagePath>Assets\Icons\car.ico</PackagePath>
     </AppxPackagedFile>
@@ -52,8 +61,30 @@
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\money.ico">
       <PackagePath>Assets\Icons\money.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreen.png">
+      <PackagePath>Assets\Img\LoadingScreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreen4.png">
+      <PackagePath>Assets\Img\LoadingScreen4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreenold.png">
+      <PackagePath>Assets\Img\LoadingScreenold.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -82,6 +113,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.xr.xml">
       <PackagePath>PoePartThreeFinal.xr.xml</PackagePath>
     </AppxPackagedFile>
@@ -90,6 +124,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf">
+      <PackagePath>LoadingScreen.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

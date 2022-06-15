@@ -5,8 +5,18 @@ Assets\Icons\home.ico
 Assets\Icons\money.ico
 Assets\Img\bg.jpg
 Assets\Img\bg2.jpg
+Assets\Img\CarBg.jpg
+Assets\Img\CarBg2.jpg
+Assets\Img\LoadingScreen.png
+Assets\Img\LoadingScreen4.png
+Assets\Img\LoadingScreenold.png
+Assets\Img\ResidentialBg.jpg
 Assets\LockScreenLogo.scale-200.png
+Assets\SplashScreen.scale-100.png
+Assets\SplashScreen.scale-125.png
+Assets\SplashScreen.scale-150.png
 Assets\SplashScreen.scale-200.png
+Assets\SplashScreen.scale-400.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
@@ -14,6 +24,7 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 Home.xbf
+LoadingScreen.xbf
 MainPage.xbf
 PoePartThreeFinal.xr.xml
 Residential.xbf

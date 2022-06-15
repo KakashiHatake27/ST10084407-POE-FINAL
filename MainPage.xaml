@@ -20,28 +20,38 @@
 
             <NavigationView.MenuItems>
 
-                <NavigationViewItem Icon="Home" Content="Home" Tag ="page1"/>
+                <NavigationViewItem Icon="Home" Content="Home" Tag ="pgHome"/>
 
-                <NavigationViewItem Content="Vehicle" Tag="page2">
+                <NavigationViewItem Content="Vehicle" Tag="pgVehicle">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/car.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-                <NavigationViewItem Content="Housing" Tag="page3">
+                <NavigationViewItem Content="Residential" Tag="pgResidential">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/home.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-                <NavigationViewItem Content="Exit" Tag="page4">
+                <!--<NavigationViewItem Content="Exit" Tag="page4">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="Assets/Icons/exit.ico"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>-->
+
+            </NavigationView.MenuItems>
+
+            
+            <NavigationView.PaneFooter>
+
+                <NavigationViewItem Content="Exit" Tapped="NavigationViewItem_Tapped" Tag="pgExit">
                     <NavigationViewItem.Icon>
                         <BitmapIcon UriSource="Assets/Icons/exit.ico"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-            </NavigationView.MenuItems>
-
+            </NavigationView.PaneFooter>
 
 
             <ScrollViewer>
