@@ -63,3 +63,13 @@ C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.i.cs
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.cs
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xaml
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Income.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Expenses.g.i.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Expenses.g.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Income.g.i.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Income.g.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Expenses.xaml
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Income.xaml
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Expenses.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\Income.xbf

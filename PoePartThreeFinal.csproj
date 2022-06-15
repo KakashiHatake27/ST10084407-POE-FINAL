@@ -119,8 +119,14 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Expenses.xaml.cs">
+      <DependentUpon>Expenses.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Income.xaml.cs">
+      <DependentUpon>Income.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoadingScreen.xaml.cs">
       <DependentUpon>LoadingScreen.xaml</DependentUpon>
@@ -142,18 +148,25 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Icons\bagofmoney.ico" />
+    <Content Include="Assets\Icons\cash.ico" />
     <Content Include="Assets\Img\bg.jpg" />
     <Content Include="Assets\Img\bg2.jpg" />
     <Content Include="Assets\Icons\car.ico" />
     <Content Include="Assets\Icons\exit.ico" />
     <Content Include="Assets\Icons\home.ico" />
     <Content Include="Assets\Icons\money.ico" />
+    <Content Include="Assets\Img\cagemoney.jpg" />
     <Content Include="Assets\Img\CarBg.jpg" />
     <Content Include="Assets\Img\CarBg2.jpg" />
+    <Content Include="Assets\Img\coins.jpg" />
     <Content Include="Assets\Img\LoadingScreen.png" />
     <Content Include="Assets\Img\LoadingScreen4.png" />
     <Content Include="Assets\Img\LoadingScreenold.png" />
     <Content Include="Assets\Img\ResidentialBg.jpg" />
+    <Content Include="Assets\Img\ResidentialBg2.png" />
+    <Content Include="Assets\Img\standingcoins.jpg" />
+    <Content Include="Assets\Img\tablecash.jpg" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-125.png" />
     <Content Include="Assets\SplashScreen.scale-150.png" />
@@ -190,7 +203,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Expenses.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Income.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

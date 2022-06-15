@@ -15,7 +15,7 @@
                 <Grid.Background>
 
                     <ImageBrush x:Name="_img_bg"
-                    ImageSource="Assets/Img/ResidentialBg.jpg"
+                    ImageSource="Assets/Img/ResidentialBg2.png"
                             Stretch="Fill"/>
 
                 </Grid.Background>
@@ -25,8 +25,27 @@
 
 
         </Grid>
-        <TextBlock FontSize="72" HorizontalAlignment="Center" 
+        <StackPanel HorizontalAlignment="Center" 
+                   VerticalAlignment="Center">
+        <TextBlock FontSize="72"
                    VerticalAlignment="Center" Foreground="White" FontWeight="ExtraBold"
                    >Residential Section</TextBlock>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Button Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
+
+                <Button Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
+            </Grid>
+            
+        </StackPanel>
     </Grid>
 </Page>

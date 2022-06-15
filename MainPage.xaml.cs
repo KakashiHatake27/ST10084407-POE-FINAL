@@ -64,6 +64,8 @@ namespace PoePartThreeFinal
                     case "pgHome": ContentFrame.Navigate(typeof(Home)); break;
                     case "pgVehicle": ContentFrame.Navigate(typeof(Vehicle)); break;
                     case "pgResidential": ContentFrame.Navigate(typeof(Residential)); break;
+                    case "pgIncome": ContentFrame.Navigate(typeof(Income)); break;
+                    case "pgExpense": ContentFrame.Navigate(typeof(Expenses)); break;
                 }
             }
         }
