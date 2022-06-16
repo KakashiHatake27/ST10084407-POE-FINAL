@@ -41,9 +41,9 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Button Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
+                <Button Click="Button_Click" Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
 
-                <Button Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
+                <Button x:Name="btnHouse" Click="btnHouse_Click" Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
             </Grid>
             
         </StackPanel>

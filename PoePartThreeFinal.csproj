@@ -119,6 +119,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BuyHouse.xaml.cs">
+      <DependentUpon>BuyHouse.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Expenses.xaml.cs">
       <DependentUpon>Expenses.xaml</DependentUpon>
     </Compile>
@@ -135,6 +138,9 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="renting.xaml.cs">
+      <DependentUpon>renting.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Residential.xaml.cs">
       <DependentUpon>Residential.xaml</DependentUpon>
     </Compile>
@@ -203,6 +209,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="BuyHouse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Expenses.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -222,6 +232,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="renting.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Residential.xaml">
       <SubType>Designer</SubType>

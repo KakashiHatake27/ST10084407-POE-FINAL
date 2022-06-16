@@ -215,6 +215,9 @@
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf">
+      <PackagePath>BuyHouse.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf">
       <PackagePath>Expenses.xbf</PackagePath>
     </AppxPackagedFile>
@@ -229,6 +232,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\renting.xbf">
+      <PackagePath>renting.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Residential.xbf">
       <PackagePath>Residential.xbf</PackagePath>

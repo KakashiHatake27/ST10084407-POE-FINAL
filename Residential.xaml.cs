@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -22,9 +23,45 @@ namespace PoePartThreeFinal
     /// </summary>
     public sealed partial class Residential : Page
     {
+
+        MainPage mp = new MainPage();
+
         public Residential()
         {
             this.InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            mp.residentialStatus = "R";
+            //Window.Current.Close();
+
+            //MessageDialog showDialog = new MessageDialog(mp.residentialStatus.ToString(), "Exit");
+            //showDialog.ShowAsync();
+
+            FindParent<Frame>(this.Frame)?.Navigate(typeof(MainPage));
+
+        }
+
+        private void btnHouse_Click(object sender, RoutedEventArgs e)
+        {
+           
+            mp.residentialStatus = "H";
+
+            //MessageDialog showDialog = new MessageDialog(mp.residentialStatus.ToString());
+            //showDialog.ShowAsync();
+            FindParent<Frame>(this.Frame)?.Navigate(typeof(MainPage));
+        }
+
+
+        public static T FindParent<T>(DependencyObject dependencyObject) where T : DependencyObject
+        {
+            var parentObject = VisualTreeHelper.GetParent(dependencyObject);
+
+            if (parentObject == null) return null;
+
+            var parent = parentObject as T;
+            return parent ?? FindParent<T>(parentObject);
         }
     }
 }

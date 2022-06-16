@@ -26,7 +26,7 @@
         </Grid>
         <TextBlock FontSize="72" HorizontalAlignment="Center" 
                    VerticalAlignment="Center" Foreground="Black" FontWeight="ExtraBold"
-                   >WELCOME TO BUDGET APP</TextBlock>
+                   >WELCOME TO BUDGET PLANNER</TextBlock>
     </Grid>
 </Page>
 

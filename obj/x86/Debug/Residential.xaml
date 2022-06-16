@@ -10,11 +10,11 @@
 
     <Grid>
         <Grid Background="Black">
-            <Grid x:ConnectionId='2' x:Name="BG">
+            <Grid x:ConnectionId='4' x:Name="BG">
 
                 <Grid.Background>
 
-                    <ImageBrush x:ConnectionId='3' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='5' x:Name="_img_bg"
                     ImageSource="Assets/Img/ResidentialBg2.png"
                             Stretch="Fill"/>
 
@@ -41,9 +41,9 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <Button Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
+                <Button x:ConnectionId='2'                      Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
 
-                <Button Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
+                <Button x:ConnectionId='3' x:Name="btnHouse"                        Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
             </Grid>
             
         </StackPanel>
