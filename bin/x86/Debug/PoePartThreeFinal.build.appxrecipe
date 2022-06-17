@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\Account.ico">
+      <PackagePath>Assets\Icons\Account.ico</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\bagofmoney.ico">
       <PackagePath>Assets\Icons\bagofmoney.ico</PackagePath>
     </AppxPackagedFile>
@@ -214,6 +217,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\AccountPage.xbf">
+      <PackagePath>AccountPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf">
       <PackagePath>BuyHouse.xbf</PackagePath>

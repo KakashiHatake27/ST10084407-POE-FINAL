@@ -22,6 +22,8 @@
 
                 <NavigationViewItem Icon="Home" Content="Home" Tag ="pgHome"/>
 
+                
+                
                 <NavigationViewItemSeparator/>
 
                 <NavigationViewItem Content="Income" Tag="pgIncome">

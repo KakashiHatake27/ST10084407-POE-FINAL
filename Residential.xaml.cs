@@ -33,24 +33,13 @@ namespace PoePartThreeFinal
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            mp.residentialStatus = "R";
-            //Window.Current.Close();
-
-            //MessageDialog showDialog = new MessageDialog(mp.residentialStatus.ToString(), "Exit");
-            //showDialog.ShowAsync();
-
-            FindParent<Frame>(this.Frame)?.Navigate(typeof(MainPage));
+            FindParent<Frame>(this.Frame)?.Navigate(typeof(renting));
 
         }
 
         private void btnHouse_Click(object sender, RoutedEventArgs e)
         {
-           
-            mp.residentialStatus = "H";
-
-            //MessageDialog showDialog = new MessageDialog(mp.residentialStatus.ToString());
-            //showDialog.ShowAsync();
-            FindParent<Frame>(this.Frame)?.Navigate(typeof(MainPage));
+            FindParent<Frame>(this.Frame)?.Navigate(typeof(BuyHouse));
         }
 
 

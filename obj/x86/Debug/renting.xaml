@@ -29,7 +29,7 @@
                    FontWeight="ExtraBold">
             Renting sub-Section</TextBlock>
             <Button x:ConnectionId='2' x:Name="btnSubmit" HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" >Hello</Button>
+                   VerticalAlignment="Center"                        >Hello</Button>
         </StackPanel>
     </Grid>
 </Page>

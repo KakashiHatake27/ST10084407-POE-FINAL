@@ -30,32 +30,14 @@ namespace PoePartThreeFinal
 
     public sealed partial class MainPage : Page
     {
-        public string residentialStatus = "";
+
+        Account acc = new Account();    
 
 
         public MainPage()
         {
             this.InitializeComponent();
-           
-        }
-
-        //private async Task<bool> OpenPageAsWindowAsync(Type t)
-        //{
-
-        //    var view = CoreApplication.CreateNewView();
-        //    int id = 0;
-
-        //    await view.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-        //    {
-        //        var frame = new Frame();
-        //        frame.Navigate(t, null);
-        //        Window.Current.Content = frame;
-        //        Window.Current.Activate();
-        //        id = ApplicationView.GetForCurrentView().Id;
-        //    });
-
-        //    return await ApplicationViewSwitcher.TryShowAsStandaloneAsync(id);
-        //}
+         }
 
         private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
@@ -65,7 +47,7 @@ namespace PoePartThreeFinal
 
                 switch (item.Tag.ToString())
                 {
-                    case "pgHome": ContentFrame.Navigate(typeof(Home)); break;
+                    case "pgHome": ContentFrame.Navigate(typeof(AccountPage)); break;
                     case "pgVehicle": ContentFrame.Navigate(typeof(renting)); break;
                     case "pgResidential": ContentFrame.Navigate(typeof(Residential)); break;
                     case "pgIncome": ContentFrame.Navigate(typeof(Income)); break;
@@ -99,38 +81,7 @@ namespace PoePartThreeFinal
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
-
-            //MessageDialog sd = new MessageDialog(residentialStatus, "MS");
-            //residentialStatus = "H";
-            if (residentialStatus == "")
-            {
-                residentialStatus = "V";
-            }
-
-            switch (residentialStatus)
-            {
-                case "V":
-                    ContentFrame.Navigate(typeof(Home));
-                    MessageDialog sd1 = new MessageDialog(residentialStatus, "MS");
-                    sd1.ShowAsync();
-                    break;
-                case "H":
-                    ContentFrame.Navigate(typeof(BuyHouse));
-
-                    MessageDialog sd2 = new MessageDialog(residentialStatus, "MS");
-                    sd2.ShowAsync();
-                    break;
-                case "R":
-                    ContentFrame.Navigate(typeof(renting));
-
-                    MessageDialog sd3 = new MessageDialog(residentialStatus, "MS");
-                    sd3.ShowAsync();
-                    break;
-            }
-
-            //ContentFrame.Navigate(typeof(renting));
-
-
+            ContentFrame.Navigate(typeof(Home));        
         }
 
         private void NavView_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)

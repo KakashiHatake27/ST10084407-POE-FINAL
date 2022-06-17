@@ -83,3 +83,8 @@ C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\BuyHouse.xaml
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\renting.xaml
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\BuyHouse.xbf
 C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\renting.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\AccountPage.g.i.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\AccountPage.g.cs
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\AccountPage.xaml
+C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\AccountPage.xbf
+C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\AccountPage.xbf
