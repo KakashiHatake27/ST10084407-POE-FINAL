@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Margin="0,0,10,0">
 
         <Grid Background="Black">
             <Grid x:ConnectionId='8' x:Name="BG">
@@ -22,12 +22,7 @@
             </Grid>
 
         </Grid>
-        <!--<TextBlock FontSize="72" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" 
-                   Foreground="White" 
-                   FontWeight="ExtraBold">
-            Expense Section</TextBlock>-->
+        
         <StackPanel>
             <TextBlock FontSize="52" 
                    FontWeight="ExtraBold"
@@ -36,7 +31,7 @@
                    >Enter Expenses</TextBlock>
 
 
-            <Grid Margin="150 0">
+            <Grid Margin="150 30">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
@@ -63,8 +58,7 @@
                     Grid.Column="1"
                     Grid.Row="0"
                     FontSize="32"
-                    Foreground="White"
-                    MinWidth="500"></TextBox>
+                    Foreground="White"></TextBox>
 
                 <TextBlock 
                 Margin="0 20"
@@ -79,7 +73,7 @@
                     Grid.Row="1"
                     FontSize="32"
                     Foreground="White"
-                    MinWidth="500"></TextBox>
+                         ></TextBox>
 
                 <TextBlock 
                 Margin="0 20"
@@ -87,14 +81,13 @@
                 Grid.Column="0" 
                 Grid.Row="2"
                 FontWeight="Bold"
-                FontSize="32">Enter Water and lights cost:</TextBlock>
+                FontSize="32">Enter water and lights cost:</TextBlock>
 
                 <TextBox x:ConnectionId='4' x:Name="tbWaterLights"
                     Grid.Column="1"
                     Grid.Row="2"
                     FontSize="32"
-                    Foreground="White"
-                    MinWidth="500"></TextBox>
+                    Foreground="White"></TextBox>
 
                 <TextBlock 
                 Margin="0 20"
@@ -108,8 +101,7 @@
                     Grid.Column="1"
                     Grid.Row="3"
                     FontSize="32"
-                    Foreground="White"
-                    MinWidth="500"></TextBox>
+                    Foreground="White"></TextBox>
 
                 <TextBlock 
                 Margin="0 20"
@@ -117,14 +109,13 @@
                 Grid.Column="0" 
                 Grid.Row="4"
                 FontWeight="Bold"
-                FontSize="32">Enter Cell phone and telephone costs:</TextBlock>
+                FontSize="32">Enter cell phone and telephone costs:</TextBlock>
 
                 <TextBox x:ConnectionId='6' x:Name="tbPhone"
                     Grid.Column="1"
                     Grid.Row="4"
                     FontSize="32"
-                    Foreground="White"
-                    MinWidth="500"></TextBox>
+                    Foreground="White"></TextBox>
 
                 <TextBlock 
                 Margin="0 20"
@@ -132,19 +123,18 @@
                 Grid.Column="0" 
                 Grid.Row="5"
                 FontWeight="Bold"
-                FontSize="32">Enter any other miscellanous expenses:</TextBlock>
+                FontSize="32">Enter any other expenses:</TextBlock>
 
                 <TextBox x:ConnectionId='7' x:Name="tbOther"
                     Grid.Column="1"
                     Grid.Row="5"
                     FontSize="32"
-                    Foreground="White"
-                    MinWidth="500"></TextBox>
+                    Foreground="White"></TextBox>
 
             </Grid>
 
             <Button 
-                Margin="0 150"
+                Margin="0 125"
                 HorizontalAlignment="Center" 
                 FontSize="34">Submit expenses</Button>
         </StackPanel>

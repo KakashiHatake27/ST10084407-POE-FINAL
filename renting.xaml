@@ -15,21 +15,48 @@
                 <Grid.Background>
 
                     <ImageBrush x:Name="_img_bg"
-                                ImageSource="Assets/Img/cagemoney.jpg"
+                                ImageSource="Assets/Img/house.jpg"
                                 Stretch="Fill"/>
                 </Grid.Background>
             </Grid>
 
         </Grid>
         <StackPanel>
-        <TextBlock FontSize="72" 
+            <TextBlock Margin="0 20" 
+                FontSize="72" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold">
             Renting sub-Section</TextBlock>
-            <Button x:Name="btnSubmit" HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" Click="btnSubmit_Click">Hello</Button>
+
+            <Grid Margin="100 280">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    FontSize="36"
+                    FontWeight="Bold"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    >Please enter monthly rental amount:</TextBlock>
+
+                <TextBox
+                    FontSize="36"
+                    Foreground="White"
+                    Grid.Row="0"
+                    Grid.Column="1"></TextBox>
+            </Grid>
+            <Button x:Name="btnSubmit"
+                    HorizontalAlignment="Center" 
+                    FontSize="38"
+                    Click="btnSubmit_Click">Submit</Button>
         </StackPanel>
     </Grid>
 </Page>

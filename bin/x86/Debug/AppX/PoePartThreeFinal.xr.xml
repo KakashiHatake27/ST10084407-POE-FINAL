@@ -63,7 +63,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="MinWidth" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.Expenses" />
     <RootType FullName="PoePartThreeFinal.Home" />

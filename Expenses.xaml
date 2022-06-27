@@ -22,12 +22,7 @@
             </Grid>
 
         </Grid>
-        <!--<TextBlock FontSize="72" 
-                   HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" 
-                   Foreground="White" 
-                   FontWeight="ExtraBold">
-            Expense Section</TextBlock>-->
+        
         <StackPanel>
             <TextBlock FontSize="52" 
                    FontWeight="ExtraBold"
