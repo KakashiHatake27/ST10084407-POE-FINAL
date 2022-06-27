@@ -26,7 +26,14 @@ namespace PoePartThreeFinal
         {
             this.InitializeComponent();
 
-            tbExpense.Text = "MOney\nMoney\nand\nmore\nmoney";
+            Expenses exp = new Expenses();
+            Account acc = new Account();
+
+
+
+            tbIncome.Text = acc.getIncome().ToString();
+            //tbExpense.Text = acc.displayAllExpenses();
+            tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
         }
     }
 }

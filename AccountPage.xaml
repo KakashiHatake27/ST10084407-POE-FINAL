@@ -40,7 +40,7 @@
                 Grid.Row="0"
                 Grid.Column="1"
                 FontSize="32"
-                Foreground="White">Value not set</TextBlock>
+                Foreground="White">Value not set </TextBlock>
 
 
 

@@ -126,12 +126,15 @@
     <Compile Include="BuyHouse.xaml.cs">
       <DependentUpon>BuyHouse.xaml</DependentUpon>
     </Compile>
+    <Compile Include="expense.cs" />
     <Compile Include="Expenses.xaml.cs">
       <DependentUpon>Expenses.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ExpensesClass.cs" />
     <Compile Include="Home.xaml.cs">
       <DependentUpon>Home.xaml</DependentUpon>
     </Compile>
+    <Compile Include="HomeLoan.cs" />
     <Compile Include="Income.xaml.cs">
       <DependentUpon>Income.xaml</DependentUpon>
     </Compile>
@@ -148,9 +151,11 @@
     <Compile Include="Residential.xaml.cs">
       <DependentUpon>Residential.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SortExpenses.cs" />
     <Compile Include="Vehicle.xaml.cs">
       <DependentUpon>Vehicle.xaml</DependentUpon>
     </Compile>
+    <Compile Include="VehicleClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">

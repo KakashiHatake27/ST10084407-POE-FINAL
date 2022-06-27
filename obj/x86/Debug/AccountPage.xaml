@@ -13,7 +13,7 @@
             HorizontalAlignment="Center"
             Margin="50"
             FontSize="48"
-            Foreground="White">Account Status</TextBlock>
+            Foreground="White">Account Information</TextBlock>
 
         <Grid Margin="300 20 300 0">
             <Grid.RowDefinitions>
@@ -40,7 +40,7 @@
                 Grid.Row="0"
                 Grid.Column="1"
                 FontSize="32"
-                Foreground="White">Value not set</TextBlock>
+                Foreground="White">Value not set </TextBlock>
 
 
 
