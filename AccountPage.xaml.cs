@@ -32,8 +32,8 @@ namespace PoePartThreeFinal
 
 
             tbIncome.Text = acc.getIncome().ToString();
-            //tbExpense.Text = acc.displayAllExpenses();
-            tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
+            tbExpense.Text = acc.displayAllExpenses();
+            //tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
         }
     }
 }

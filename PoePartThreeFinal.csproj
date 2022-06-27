@@ -173,6 +173,7 @@
     <Content Include="Assets\Icons\home.ico" />
     <Content Include="Assets\Icons\money.ico" />
     <Content Include="Assets\Img\cagemoney.jpg" />
+    <Content Include="Assets\Img\cagemoney2.png" />
     <Content Include="Assets\Img\CarBg.jpg" />
     <Content Include="Assets\Img\CarBg2.jpg" />
     <Content Include="Assets\Img\coins.jpg" />
