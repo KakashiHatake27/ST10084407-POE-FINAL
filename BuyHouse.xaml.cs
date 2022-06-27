@@ -45,5 +45,10 @@ namespace PoePartThreeFinal
 
             await ApplicationViewSwitcher.SwitchAsync(newViewId, currentViewId, ApplicationViewSwitchingOptions.ConsolidateViews);
         }
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            ShowNewView();
+        }
     }
 }

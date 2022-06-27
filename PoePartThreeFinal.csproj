@@ -177,6 +177,8 @@
     <Content Include="Assets\Img\CarBg.jpg" />
     <Content Include="Assets\Img\CarBg2.jpg" />
     <Content Include="Assets\Img\coins.jpg" />
+    <Content Include="Assets\Img\house.jpg" />
+    <Content Include="Assets\Img\house2.jpg" />
     <Content Include="Assets\Img\LoadingScreen.png" />
     <Content Include="Assets\Img\LoadingScreen4.png" />
     <Content Include="Assets\Img\LoadingScreenold.png" />

@@ -73,6 +73,12 @@
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\coins.jpg">
       <PackagePath>Assets\Img\coins.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\house.jpg">
+      <PackagePath>Assets\Img\house.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\house2.jpg">
+      <PackagePath>Assets\Img\house2.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\ResidentialBg.jpg">
       <PackagePath>Assets\Img\ResidentialBg.jpg</PackagePath>
     </AppxPackagedFile>

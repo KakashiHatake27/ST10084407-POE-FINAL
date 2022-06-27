@@ -10,23 +10,112 @@
 
     <Grid>
         <Grid Background="Black">
-            <Grid x:ConnectionId='2' x:Name="BG">
+            <Grid x:ConnectionId='7' x:Name="BG">
 
                 <Grid.Background>
 
-                    <ImageBrush x:ConnectionId='3' x:Name="_img_bg"
-                                ImageSource="Assets/Img/cagemoney.jpg"
+                    <ImageBrush x:ConnectionId='8' x:Name="_img_bg"
+                                ImageSource="Assets/Img/house2.jpg"
                                 Stretch="Fill"/>
                 </Grid.Background>
             </Grid>
 
         </Grid>
+        <StackPanel>
         <TextBlock FontSize="72" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold">
-            House purchase sub-Section</TextBlock>
+            House purchase</TextBlock>
+
+            <Grid Margin="20 100 20 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Margin="100 0 0 0"
+                    FontSize="34"
+                    FontWeight="Bold"
+                    >Enter purchase price of property:</TextBlock>
+
+                <TextBox x:ConnectionId='3' x:Name="tbPurchase"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    FontSize="34"
+                    Foreground="White"
+                    ></TextBox>
+
+
+
+
+                <TextBlock
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Margin="100 0 0 0"
+                    FontSize="34"
+                    FontWeight="Bold"
+                    >Enter total deposit:</TextBlock>
+
+                <TextBox x:ConnectionId='4' x:Name="tbDeposit"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    FontSize="34"
+                    Foreground="White"
+                    ></TextBox>
+
+
+                <TextBlock
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Margin="100 0 0 0"
+                    FontSize="34"
+                    FontWeight="Bold"
+                    >Enter interest rate (in percentage%):</TextBlock>
+
+                <TextBox x:ConnectionId='5' x:Name="tbInterest"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    FontSize="34"
+                    Foreground="White"
+                    ></TextBox>
+
+
+                <TextBlock
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Margin="10 0 0 0"
+                    FontSize="28"
+                    FontWeight="Bold"
+                    >Number of months to complete payment(240 - 360):</TextBlock>
+
+                <TextBox x:ConnectionId='6' x:Name="tbMonthsRepay"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    FontSize="34"
+                    Foreground="White"
+                    ></TextBox>
+            </Grid>
+            
+            
+        <Button x:ConnectionId='2' x:Name="btnSubmit" 
+                                       
+                Margin="0 200"
+                HorizontalAlignment="Center"
+                FontSize="36"
+                >Submit</Button>
+        </StackPanel>
     </Grid>
 </Page>
 
