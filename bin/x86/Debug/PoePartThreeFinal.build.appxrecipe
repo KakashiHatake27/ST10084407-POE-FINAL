@@ -82,6 +82,9 @@
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\tablecash.jpg">
       <PackagePath>Assets\Img\tablecash.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\cagemoney2.png">
+      <PackagePath>Assets\Img\cagemoney2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreen.png">
       <PackagePath>Assets\Img\LoadingScreen.png</PackagePath>
     </AppxPackagedFile>

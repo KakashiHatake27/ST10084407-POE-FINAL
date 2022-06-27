@@ -51,6 +51,20 @@
       <RootEvent Name="ImageOpened" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.BuyHouse" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Foreground" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="MinWidth" />
+    </RootType>
     <RootType FullName="PoePartThreeFinal.Expenses" />
     <RootType FullName="PoePartThreeFinal.Home" />
     <RootType FullName="PoePartThreeFinal.Income" />
@@ -89,15 +103,6 @@
       <RootProperty Name="Foreground" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Button">
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Margin" />
-      <RootEvent Name="Click" />
-    </RootType>
     <RootType FullName="PoePartThreeFinal.renting" />
     <RootType FullName="PoePartThreeFinal.Residential" />
     <RootType FullName="PoePartThreeFinal.Vehicle" />
