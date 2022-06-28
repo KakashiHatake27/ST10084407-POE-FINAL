@@ -23,10 +23,125 @@
             </Grid>
 
 
-
         </Grid>
-        <TextBlock FontSize="72" HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" Foreground="White" FontWeight="ExtraBold"
+
+        <StackPanel>
+            <TextBlock FontSize="72" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center" 
+                   Foreground="White" 
+                   FontWeight="ExtraBold"
+                       Margin="0 20 0 100"
                    >Vehicle Section</TextBlock>
+
+            <TextBlock
+                Foreground="White"></TextBlock>
+            <Grid Width="1503">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="829*"/>
+                    <ColumnDefinition Width="674*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock
+                    FontSize="32"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Foreground="White" 
+                    Margin="30,20,28,20"
+                    >Enter make and model of the vehicle:</TextBlock>
+
+                <TextBox
+                    FontSize="32"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    Margin="20"
+                    Foreground="White"
+                    ></TextBox>
+
+
+
+                <TextBlock
+                    FontSize="32"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Foreground="White" Margin="30,20,28,20"
+                    >Enter the purchase price of the vehicle:</TextBlock>
+
+                <TextBox
+                    FontSize="32"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="20"
+                    Foreground="White"
+                    ></TextBox>
+
+                <TextBlock
+                    FontSize="32"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Foreground="White" Margin="30,20,28,20"
+                    >Enter total deposit for the vehicle:</TextBlock>
+
+                <TextBox
+                    FontSize="32"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Margin="20"
+                    Foreground="White"
+                    ></TextBox>
+
+
+                <TextBlock
+                    FontSize="32"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Foreground="White" Margin="30,20,28,20"
+                    >Enter the interest rate percentage for the vehicle:</TextBlock>
+
+                <TextBox
+                    FontSize="32"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Margin="20"
+                    Foreground="White"
+                    ></TextBox>
+
+
+                <TextBlock
+                    FontSize="32"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Foreground="White" Margin="30,20,28,20"
+                    >Enter the estimated insurance premium of the vehicle:</TextBlock>
+
+
+                <!--Margin="100,0,100,0"-->
+
+                <TextBox
+                    FontSize="32"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Margin="20"
+                    Foreground="White"
+                    ></TextBox>
+
+            </Grid>
+
+            <Button
+                FontSize="34"
+                Margin="0 200 0 0"
+                HorizontalAlignment="Center"
+                >Submit</Button>
+            
+        </StackPanel>
+
+
     </Grid>
 </Page>

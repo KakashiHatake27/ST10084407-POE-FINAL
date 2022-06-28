@@ -28,6 +28,7 @@
                    FontWeight="ExtraBold"
                    Margin="0 30"
                    HorizontalAlignment="Center"
+                       Foreground="White"
                    >Enter Expenses</TextBlock>
 
 
