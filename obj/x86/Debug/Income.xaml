@@ -10,11 +10,11 @@
 
     <Grid>
         <Grid Background="Black">
-            <Grid x:ConnectionId='2' x:Name="BG">
+            <Grid x:ConnectionId='4' x:Name="BG">
 
                 <Grid.Background>
 
-                    <ImageBrush x:ConnectionId='3' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='5' x:Name="_img_bg"
                                 ImageSource="Assets/Img/coins.jpg"
                                 Stretch="Fill"/>
 
@@ -22,15 +22,47 @@
 
             </Grid>
 
-
-
         </Grid>
+
+        <StackPanel>
+        
         <TextBlock FontSize="72" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold">
-            Income Section</TextBlock>
+            Income</TextBlock>
+
+            <Grid Margin="0 200 0 150">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBlock
+                    Margin="100 0 0 10"
+                    FontWeight="Bold"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Foreground="White"
+                  FontSize="32"  >Enter Gross monthly income(before taxes):
+                </TextBlock>
+
+                <TextBox x:ConnectionId='3' x:Name="tbIncome"
+                    Grid.Column="1"
+                    Grid.Row="0"
+                    Margin="35 0 75 0"
+                    FontSize="32"></TextBox>
+            </Grid>
+
+            <Button x:ConnectionId='2' x:Name="btnSubmit"
+                HorizontalAlignment="Center"
+                FontSize="34">Submit</Button>
+            
+        </StackPanel>
     </Grid>
 </Page>
 

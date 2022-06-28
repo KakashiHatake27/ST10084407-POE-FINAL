@@ -54,7 +54,7 @@
                 <TextBox x:Name="tbPurchase"
                     Grid.Row="0"
                     Grid.Column="1"
-                    Margin="10 10 0 10"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -73,7 +73,7 @@
                 <TextBox x:Name="tbDeposit"
                     Grid.Row="1"
                     Grid.Column="1"
-                    Margin="10 10 0 10"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -90,7 +90,7 @@
                 <TextBox x:Name="tbInterest"
                     Grid.Row="2"
                     Grid.Column="1"
-                    Margin="10 10 0 10"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>

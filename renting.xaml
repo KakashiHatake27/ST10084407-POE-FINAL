@@ -28,7 +28,7 @@
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold">
-            Renting sub-Section</TextBlock>
+            Renting</TextBlock>
 
             <Grid Margin="100 280">
                 <Grid.RowDefinitions>
@@ -45,6 +45,7 @@
                     FontWeight="Bold"
                     Grid.Row="0"
                     Grid.Column="0"
+                       Foreground="White"
                     >Please enter monthly rental amount:</TextBlock>
 
                 <TextBox

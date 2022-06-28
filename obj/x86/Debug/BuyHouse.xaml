@@ -25,6 +25,7 @@
         <TextBlock FontSize="72" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
+                   Margin="20"
                    Foreground="White" 
                    FontWeight="ExtraBold">
             House purchase</TextBlock>
@@ -45,7 +46,7 @@
                 <TextBlock
                     Grid.Row="0"
                     Grid.Column="0"
-                    Margin="100 0 0 0"
+                    Margin="10 10 0 10"
                     FontSize="34"
                     FontWeight="Bold"
                     >Enter purchase price of property:</TextBlock>
@@ -53,6 +54,7 @@
                 <TextBox x:ConnectionId='3' x:Name="tbPurchase"
                     Grid.Row="0"
                     Grid.Column="1"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -63,7 +65,7 @@
                 <TextBlock
                     Grid.Row="1"
                     Grid.Column="0"
-                    Margin="100 0 0 0"
+                    Margin="10 10 0 10"
                     FontSize="34"
                     FontWeight="Bold"
                     >Enter total deposit:</TextBlock>
@@ -71,6 +73,7 @@
                 <TextBox x:ConnectionId='4' x:Name="tbDeposit"
                     Grid.Row="1"
                     Grid.Column="1"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -79,7 +82,7 @@
                 <TextBlock
                     Grid.Row="2"
                     Grid.Column="0"
-                    Margin="100 0 0 0"
+                    Margin="10 10 0 10"
                     FontSize="34"
                     FontWeight="Bold"
                     >Enter interest rate (in percentage%):</TextBlock>
@@ -87,6 +90,7 @@
                 <TextBox x:ConnectionId='5' x:Name="tbInterest"
                     Grid.Row="2"
                     Grid.Column="1"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -95,7 +99,7 @@
                 <TextBlock
                     Grid.Row="3"
                     Grid.Column="0"
-                    Margin="10 0 0 0"
+                    Margin="10 10 0 10"
                     FontSize="28"
                     FontWeight="Bold"
                     >Number of months to complete payment(240 - 360):</TextBlock>
@@ -103,6 +107,7 @@
                 <TextBox x:ConnectionId='6' x:Name="tbMonthsRepay"
                     Grid.Row="3"
                     Grid.Column="1"
+                    Margin="10 10 10 10"
                     FontSize="34"
                     Foreground="White"
                     ></TextBox>
@@ -111,7 +116,7 @@
             
         <Button x:ConnectionId='2' x:Name="btnSubmit" 
                                        
-                Margin="0 200"
+                Margin="0 250"
                 HorizontalAlignment="Center"
                 FontSize="36"
                 >Submit</Button>
