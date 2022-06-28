@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -25,6 +28,41 @@ namespace PoePartThreeFinal
         public Vehicle()
         {
             this.InitializeComponent();
+        }
+
+        VehicleClass vc = new VehicleClass();
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            vc.MakeAndModel = tbModel.Text;
+            vc.PurchasePrice = Convert.ToDouble(tbPrice.Text); 
+            vc.Deposit = Convert.ToDouble(tbDeposit.Text);
+            vc.InterestRate = Convert.ToDouble(tbInterest.Text);
+            vc.InsurancePremium = Convert.ToDouble(tbInsurance.Text);
+
+            var messageDialog = new MessageDialog("Vehicle added successfully");
+
+            messageDialog.ShowAsync(); 
+
+            ShowNewView();
+        }
+
+         
+        private int currentViewId = ApplicationView.GetForCurrentView().Id;
+        private async void ShowNewView()
+        {
+            CoreApplicationView newView = CoreApplication.CreateNewView();
+            int newViewId = 0;
+            await newView.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, () =>
+            {
+                Frame frame = new Frame();
+                frame.Navigate(typeof(MainPage), null);
+                Window.Current.Content = frame;
+                Window.Current.Activate();
+                newViewId = ApplicationView.GetForCurrentView().Id;
+            });
+
+            await ApplicationViewSwitcher.SwitchAsync(newViewId, currentViewId, ApplicationViewSwitchingOptions.ConsolidateViews);
         }
     }
 }

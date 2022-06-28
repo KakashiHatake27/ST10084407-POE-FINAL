@@ -19,10 +19,12 @@ namespace PoePartThreeFinal
         /* Declaring the variables. */
         private double grossMonthlyIncome;
         private double accountBalance;
+        private double rental;
+        
 
         public double AccountBalance { get => accountBalance; set => accountBalance = value; }
         public double GrossMonthlyIncome { get => grossMonthlyIncome; set => grossMonthlyIncome = value; }
-
+        //public double Rental { get => rental; set => rental = value; }
 
         private int housing;
 
@@ -53,6 +55,9 @@ namespace PoePartThreeFinal
             }
         }
 
+        public void setRental(double rental) {
+            addExpense("Rental", rental);
+        }
 
         /// The function getIncome() gets the gross monthly income from the user and increases the
         /// balance by the gross monthly income.
@@ -71,6 +76,8 @@ namespace PoePartThreeFinal
             /* Increasing the balance by the gross monthly income. */
             increaseBalance(grossMonthlyIncome);
         }
+
+
 
         /// The function is supposed to ask the user to select between renting or buying a property. If
         /// the user selects renting, the function should call the delegate grd which will ask the user
@@ -143,12 +150,15 @@ namespace PoePartThreeFinal
         /// gmi = Gross Monthly Income
         public bool checkApprovalLikeliness(double gmi)
         {
-            return false;
+
             if ((gmi / 3) < hl.calcMonthlyLoanRepayment())
             {
 
                 //Console.WriteLine("\nALERT: The approval of this home loan is unlikely");
                 return true;
+            }
+            else { 
+            return false;
             }
         }
 

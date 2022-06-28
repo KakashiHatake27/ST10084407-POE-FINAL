@@ -59,6 +59,7 @@
                     Grid.Column="1"
                     Grid.Row="0"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -73,6 +74,7 @@
                     Grid.Column="1"
                     Grid.Row="1"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"
                          ></TextBox>
 
@@ -88,6 +90,7 @@
                     Grid.Column="1"
                     Grid.Row="2"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -102,6 +105,7 @@
                     Grid.Column="1"
                     Grid.Row="3"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -116,6 +120,7 @@
                     Grid.Column="1"
                     Grid.Row="4"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -130,13 +135,15 @@
                     Grid.Column="1"
                     Grid.Row="5"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
             </Grid>
 
-            <Button 
-                Margin="0 125"
+            <Button x:Name="btnSubmit"
+                Margin="0 60"
                 HorizontalAlignment="Center" 
+                Click="btnSubmit_Click"
                 FontSize="34">Submit expenses</Button>
         </StackPanel>
     </Grid>

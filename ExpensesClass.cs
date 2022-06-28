@@ -18,6 +18,10 @@ namespace PoePartThreeFinal
         /* Creating a new instance of the expense class. */
         public expense exp = new expense();
 
+        protected ExpensesClass()
+        {
+        }
+
         /// It gets the user's input and stores it in an array
         public void GetInput()
         {
@@ -72,6 +76,10 @@ namespace PoePartThreeFinal
 
         }
 
+
+        public void addExpense(string expenseType, double value) { 
+            exp = new expense(expenseType,value);
+        }
 
         /// This function calculates the total expenses of the company by adding all the expenses in the
         /// array

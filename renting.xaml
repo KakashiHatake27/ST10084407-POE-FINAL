@@ -49,6 +49,7 @@
                     >Please enter monthly rental amount:</TextBlock>
 
                 <TextBox
+                    x:Name="tbRental"
                     FontSize="36"
                     Foreground="White"
                     Grid.Row="0"

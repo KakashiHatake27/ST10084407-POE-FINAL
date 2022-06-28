@@ -25,6 +25,9 @@ namespace PoePartThreeFinal
     /// </summary>
     public sealed partial class renting : Page
     {
+        Account account = new Account();
+        
+
         public renting()
         {
             this.InitializeComponent();
@@ -32,6 +35,14 @@ namespace PoePartThreeFinal
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+            double rental=Convert.ToDouble(tbRental.Text);
+            //account.Rental = rental;
+            account.setRental(rental);
+
+            var messageDialog = new MessageDialog("Rental added successfully");
+
+            messageDialog.ShowAsync();
+
             ShowNewView();
             
         }

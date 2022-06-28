@@ -11,18 +11,12 @@
     <Grid>
         <Grid Background="Black">
             <Grid x:Name="BG">
-
                 <Grid.Background>
-
                     <ImageBrush x:Name="_img_bg"
                     ImageSource="Assets/Img/CarBg2.jpg"
                             Stretch="Fill"/>
-
                 </Grid.Background>
-
             </Grid>
-
-
         </Grid>
 
         <StackPanel>
@@ -57,7 +51,7 @@
                     Margin="30,20,28,20"
                     >Enter make and model of the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:Name="tbModel"
                     FontSize="32"
                     Grid.Row="0"
                     Grid.Column="1"
@@ -74,7 +68,7 @@
                     Foreground="White" Margin="30,20,28,20"
                     >Enter the purchase price of the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:Name="tbPrice"
                     FontSize="32"
                     Grid.Row="1"
                     Grid.Column="1"
@@ -89,7 +83,7 @@
                     Foreground="White" Margin="30,20,28,20"
                     >Enter total deposit for the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:Name="tbDeposit"
                     FontSize="32"
                     Grid.Row="2"
                     Grid.Column="1"
@@ -105,7 +99,7 @@
                     Foreground="White" Margin="30,20,28,20"
                     >Enter the interest rate percentage for the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:Name="tbInterest"
                     FontSize="32"
                     Grid.Row="3"
                     Grid.Column="1"
@@ -121,10 +115,8 @@
                     Foreground="White" Margin="30,20,28,20"
                     >Enter the estimated insurance premium of the vehicle:</TextBlock>
 
-
-                <!--Margin="100,0,100,0"-->
-
-                <TextBox
+                
+                <TextBox x:Name="tbInsurance"
                     FontSize="32"
                     Grid.Row="4"
                     Grid.Column="1"
@@ -134,9 +126,10 @@
 
             </Grid>
 
-            <Button
-                FontSize="34"
-                Margin="0 200 0 0"
+            <Button x:Name="btnSubmit"
+                    Click="btnSubmit_Click"
+                FontSize="36"
+                Margin="0 100 0 0"
                 HorizontalAlignment="Center"
                 >Submit</Button>
             
