@@ -31,23 +31,26 @@ namespace PoePartThreeFinal
         }
 
         VehicleClass vc = new VehicleClass();
+        Storage store = new Storage();
 
-        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
             vc.MakeAndModel = tbModel.Text;
-            vc.PurchasePrice = Convert.ToDouble(tbPrice.Text); 
+            vc.PurchasePrice = Convert.ToDouble(tbPrice.Text);
             vc.Deposit = Convert.ToDouble(tbDeposit.Text);
             vc.InterestRate = Convert.ToDouble(tbInterest.Text);
             vc.InsurancePremium = Convert.ToDouble(tbInsurance.Text);
 
+            await store.WriteData("Vehicle " + vc.showVehicle());
+
             var messageDialog = new MessageDialog("Vehicle added successfully");
 
-            messageDialog.ShowAsync(); 
+            await messageDialog.ShowAsync();
 
             ShowNewView();
         }
 
-         
+
         private int currentViewId = ApplicationView.GetForCurrentView().Id;
         private async void ShowNewView()
         {

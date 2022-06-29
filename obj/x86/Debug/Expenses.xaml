@@ -11,11 +11,11 @@
     <Grid Margin="0,0,10,0">
 
         <Grid Background="Black">
-            <Grid x:ConnectionId='8' x:Name="BG">
+            <Grid x:ConnectionId='9' x:Name="BG">
 
                 <Grid.Background>
 
-                    <ImageBrush x:ConnectionId='9' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='10' x:Name="_img_bg"
                                 ImageSource="Assets/Img/cagemoney2.png"
                                 Stretch="Fill"/>
                 </Grid.Background>
@@ -55,10 +55,11 @@
                 FontWeight="Bold"
                 FontSize="32">Enter estimated Monthly Tax:</TextBlock>
 
-                <TextBox x:ConnectionId='2'  x:Name="tbMonthlyTax"
+                <TextBox x:ConnectionId='3'  x:Name="tbMonthlyTax"
                     Grid.Column="1"
                     Grid.Row="0"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -69,10 +70,11 @@
                 FontWeight="Bold"
                 FontSize="32">Enter groceries cost:</TextBlock>
 
-                <TextBox x:ConnectionId='3' x:Name="tbGroceries"
+                <TextBox x:ConnectionId='4' x:Name="tbGroceries"
                     Grid.Column="1"
                     Grid.Row="1"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"
                          ></TextBox>
 
@@ -84,10 +86,11 @@
                 FontWeight="Bold"
                 FontSize="32">Enter water and lights cost:</TextBlock>
 
-                <TextBox x:ConnectionId='4' x:Name="tbWaterLights"
+                <TextBox x:ConnectionId='5' x:Name="tbWaterLights"
                     Grid.Column="1"
                     Grid.Row="2"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -98,10 +101,11 @@
                 FontWeight="Bold"
                 FontSize="32">Enter travel costs(including fuel):</TextBlock>
 
-                <TextBox x:ConnectionId='5' x:Name="tbTravel"
+                <TextBox x:ConnectionId='6' x:Name="tbTravel"
                     Grid.Column="1"
                     Grid.Row="3"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -112,10 +116,11 @@
                 FontWeight="Bold"
                 FontSize="32">Enter cell phone and telephone costs:</TextBlock>
 
-                <TextBox x:ConnectionId='6' x:Name="tbPhone"
+                <TextBox x:ConnectionId='7' x:Name="tbPhone"
                     Grid.Column="1"
                     Grid.Row="4"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
                 <TextBlock 
@@ -126,17 +131,19 @@
                 FontWeight="Bold"
                 FontSize="32">Enter any other expenses:</TextBlock>
 
-                <TextBox x:ConnectionId='7' x:Name="tbOther"
+                <TextBox x:ConnectionId='8' x:Name="tbOther"
                     Grid.Column="1"
                     Grid.Row="5"
                     FontSize="32"
+                         Margin="20"
                     Foreground="White"></TextBox>
 
             </Grid>
 
-            <Button 
-                Margin="0 125"
+            <Button x:ConnectionId='2' x:Name="btnSubmit"
+                Margin="0 60"
                 HorizontalAlignment="Center" 
+                                       
                 FontSize="34">Submit expenses</Button>
         </StackPanel>
     </Grid>

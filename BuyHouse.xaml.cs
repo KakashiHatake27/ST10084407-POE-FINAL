@@ -48,6 +48,8 @@ namespace PoePartThreeFinal
 
         private void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+
+
             ShowNewView();
         }
     }

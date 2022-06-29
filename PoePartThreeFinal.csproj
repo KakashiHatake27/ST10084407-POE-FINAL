@@ -152,6 +152,7 @@
       <DependentUpon>Residential.xaml</DependentUpon>
     </Compile>
     <Compile Include="SortExpenses.cs" />
+    <Compile Include="Storage.cs" />
     <Compile Include="Vehicle.xaml.cs">
       <DependentUpon>Vehicle.xaml</DependentUpon>
     </Compile>

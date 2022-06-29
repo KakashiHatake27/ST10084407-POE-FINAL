@@ -29,6 +29,16 @@ namespace PoePartThreeFinal
 
 
 
+        public string showVehicle() {
+            string vehicleInfo = "Vehicle Make and model" + MakeAndModel +
+                "\nVehicle Purchase price" + PurchasePrice.ToString()+
+                "\nVehicle Deposit" + Deposit.ToString()+
+                "\nVehicle Interest" + InterestRate.ToString()+
+                "\nVehicle Insurance" + InsurancePremium.ToString();
+
+            return vehicleInfo;
+        }
+
         /// The function calculates the monthly cost of a car loan by taking the purchase price,
         /// subtracting the deposit, multiplying the result by the interest rate, adding the insurance
         /// premium, and dividing the result by 60

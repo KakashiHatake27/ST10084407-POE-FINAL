@@ -28,11 +28,13 @@ namespace PoePartThreeFinal
 
             Expenses exp = new Expenses();
             Account acc = new Account();
+            VehicleClass vehicle = new VehicleClass();
 
 
+            string expenseList = acc.displayAllExpenses() + "\n" + vehicle.showVehicle();
 
             tbIncome.Text = acc.getIncome().ToString();
-            tbExpense.Text = acc.displayAllExpenses();
+            tbExpense.Text = expenseList;
             //tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
         }
     }

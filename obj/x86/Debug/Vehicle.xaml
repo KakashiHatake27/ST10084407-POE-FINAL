@@ -10,35 +10,30 @@
 
     <Grid>
         <Grid Background="Black">
-            <Grid x:ConnectionId='2' x:Name="BG">
-
+            <Grid x:ConnectionId='8' x:Name="BG">
                 <Grid.Background>
-
-                    <ImageBrush x:ConnectionId='3' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='9' x:Name="_img_bg"
                     ImageSource="Assets/Img/CarBg2.jpg"
                             Stretch="Fill"/>
-
                 </Grid.Background>
-
             </Grid>
-
-
         </Grid>
 
         <StackPanel>
-        <TextBlock FontSize="72" 
+            <TextBlock FontSize="72" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold"
+                       Margin="0 20 0 100"
                    >Vehicle Section</TextBlock>
 
             <TextBlock
                 Foreground="White"></TextBlock>
             <Grid Width="1503">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="829*"/>
+                    <ColumnDefinition Width="674*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
@@ -52,14 +47,15 @@
                     FontSize="32"
                     Grid.Row="0"
                     Grid.Column="0"
-                    Foreground="White"
+                    Foreground="White" 
+                    Margin="30,20,28,20"
                     >Enter make and model of the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:ConnectionId='3' x:Name="tbModel"
                     FontSize="32"
                     Grid.Row="0"
                     Grid.Column="1"
-                    Margin="100 0"
+                    Margin="20 20 100 20"
                     Foreground="White"
                     ></TextBox>
 
@@ -69,14 +65,14 @@
                     FontSize="32"
                     Grid.Row="1"
                     Grid.Column="0"
-                    Foreground="White"
+                    Foreground="White" Margin="30,20,28,20"
                     >Enter the purchase price of the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:ConnectionId='4' x:Name="tbPrice"
                     FontSize="32"
                     Grid.Row="1"
                     Grid.Column="1"
-                    Margin="100 0"
+                    Margin="20 20 100 20"
                     Foreground="White"
                     ></TextBox>
 
@@ -84,14 +80,14 @@
                     FontSize="32"
                     Grid.Row="2"
                     Grid.Column="0"
-                    Foreground="White"
+                    Foreground="White" Margin="30,20,28,20"
                     >Enter total deposit for the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:ConnectionId='5' x:Name="tbDeposit"
                     FontSize="32"
                     Grid.Row="2"
                     Grid.Column="1"
-                    Margin="100 0"
+                    Margin="20 20 100 20"
                     Foreground="White"
                     ></TextBox>
 
@@ -100,14 +96,14 @@
                     FontSize="32"
                     Grid.Row="3"
                     Grid.Column="0"
-                    Foreground="White"
+                    Foreground="White" Margin="30,20,28,20"
                     >Enter the interest rate percentage for the vehicle:</TextBlock>
 
-                <TextBox
+                <TextBox x:ConnectionId='6' x:Name="tbInterest"
                     FontSize="32"
                     Grid.Row="3"
                     Grid.Column="1"
-                    Margin="100 0"
+                    Margin="20 20 100 20"
                     Foreground="White"
                     ></TextBox>
 
@@ -116,22 +112,30 @@
                     FontSize="32"
                     Grid.Row="4"
                     Grid.Column="0"
-                    
-                    Foreground="White"
+                    Foreground="White" Margin="30,20,28,20"
                     >Enter the estimated insurance premium of the vehicle:</TextBlock>
 
-                <TextBox
+                
+                <TextBox x:ConnectionId='7' x:Name="tbInsurance"
                     FontSize="32"
                     Grid.Row="4"
                     Grid.Column="1"
-                    Margin="100 0"
+                    Margin="20 20 100 20"
                     Foreground="White"
                     ></TextBox>
 
             </Grid>
+
+            <Button x:ConnectionId='2' x:Name="btnSubmit"
+                                           
+                FontSize="36"
+                Margin="0 100 0 100"
+                HorizontalAlignment="Center"
+                >Submit</Button>
+            
         </StackPanel>
 
-        
+
     </Grid>
 </Page>
 

@@ -10,11 +10,11 @@
 
     <Grid>
         <Grid Background="Black">
-            <Grid x:ConnectionId='3' x:Name="BG">
+            <Grid x:ConnectionId='4' x:Name="BG">
 
                 <Grid.Background>
 
-                    <ImageBrush x:ConnectionId='4' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='5' x:Name="_img_bg"
                                 ImageSource="Assets/Img/house.jpg"
                                 Stretch="Fill"/>
                 </Grid.Background>
@@ -48,7 +48,8 @@
                        Foreground="White"
                     >Please enter monthly rental amount:</TextBlock>
 
-                <TextBox
+                <TextBox x:ConnectionId='3'
+                    x:Name="tbRental"
                     FontSize="36"
                     Foreground="White"
                     Grid.Row="0"
