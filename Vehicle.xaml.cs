@@ -35,6 +35,40 @@ namespace PoePartThreeFinal
 
         private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+            if (tbModel.Text == "")
+            {
+
+                var errorDialog = new MessageDialog("Vehicle make and model cannot be empty");
+
+                await errorDialog.ShowAsync();
+            }
+            else if (tbPrice.Text == "")
+            {
+
+                var errorDialog = new MessageDialog("Vehicle purchase price cannot be empty");
+
+                await errorDialog.ShowAsync();
+            }
+            else if (tbDeposit.Text == "")
+            {
+
+                var errorDialog = new MessageDialog("Vehicle deposit cannot be empty");
+
+                await errorDialog.ShowAsync();
+            }
+            else if (tbInterest.Text == "")
+            {
+                var errorDialog = new MessageDialog("Vehicle interest cannot be empty");
+                await errorDialog.ShowAsync();
+            }
+            else if (tbInsurance.Text == "")
+            {
+                var errorDialog = new MessageDialog("Vehicle insurance cannot be empty");
+                await errorDialog.ShowAsync();
+            }
+
+
+
             vc.MakeAndModel = tbModel.Text;
             vc.PurchasePrice = Convert.ToDouble(tbPrice.Text);
             vc.Deposit = Convert.ToDouble(tbDeposit.Text);
@@ -67,5 +101,7 @@ namespace PoePartThreeFinal
 
             await ApplicationViewSwitcher.SwitchAsync(newViewId, currentViewId, ApplicationViewSwitchingOptions.ConsolidateViews);
         }
+
+
     }
 }

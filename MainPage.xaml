@@ -50,12 +50,6 @@
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
 
-                <!--<NavigationViewItem Content="Exit" Tag="page4">
-                    <NavigationViewItem.Icon>
-                        <BitmapIcon UriSource="Assets/Icons/exit.ico"/>
-                    </NavigationViewItem.Icon>
-                </NavigationViewItem>-->
-
             </NavigationView.MenuItems>
 
             

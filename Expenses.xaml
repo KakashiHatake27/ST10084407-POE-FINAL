@@ -8,137 +8,59 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Margin="0,0,10,0">
+    <StackPanel>
 
-        <Grid Background="Black">
-            <Grid x:Name="BG">
+        <StackPanel.Background>
+            <ImageBrush x:Name="_img_bg"
+                    ImageSource="Assets/Img/Cagemoney2.png"
+                            Stretch="Fill"/>
+        </StackPanel.Background>
 
-                <Grid.Background>
 
-                    <ImageBrush x:Name="_img_bg"
-                                ImageSource="Assets/Img/cagemoney2.png"
-                                Stretch="Fill"/>
-                </Grid.Background>
-            </Grid>
-
-        </Grid>
-        
-        <StackPanel>
-            <TextBlock FontSize="52" 
+        <TextBlock FontSize="52" 
                    FontWeight="ExtraBold"
-                   Margin="0 30"
+                   Margin="0 20 0 70 "
                    HorizontalAlignment="Center"
                        Foreground="White"
-                   >Enter Expenses</TextBlock>
+                   >Expenses</TextBlock>
 
 
-            <Grid Margin="150 30">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
+            <TextBox  x:Name="tbMonthlyTax"
+                      PlaceholderText="Please enter estimated Monthly Tax"
+                      Header="Monthly tax"
+                      Margin="300 20 300 20"   
+                      Foreground="White"/>
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+            <TextBox x:Name="tbGroceries"
+                     Header="Groceries"
+                      Margin="300 20 300 20"   
+                    PlaceholderText="Please enter groceries cost"
+                     Foreground="White"/>
 
-                <TextBlock
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="0"
-                FontWeight="Bold"
-                FontSize="32">Enter estimated Monthly Tax:</TextBlock>
+            <TextBox x:Name="tbWaterLights"
+                     PlaceholderText="Please enter the cost of water and lights"
+                     Header="Water and lights"
+                      Margin="300 20 300 20"   
+                    Foreground="White"/>
 
-                <TextBox  x:Name="tbMonthlyTax"
-                    Grid.Column="1"
-                    Grid.Row="0"
-                    FontSize="32"
-                         Margin="20"
+            <TextBox x:Name="tbTravel"
+                     PlaceholderText="Please enter travel costs(including fuel)"
+                     Header="Travel costs"
+                      Margin="300 20 300 20"   
+                    Foreground="White"/>
+
+            <TextBox x:Name="tbPhone"
+                     Header="Cellphone and telephone"
+                      Margin="300 20 300 20"   
+                     PlaceholderText="Please enter cell phone and telephone costs"
                     Foreground="White"></TextBox>
 
-                <TextBlock 
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="1"
-                FontWeight="Bold"
-                FontSize="32">Enter groceries cost:</TextBlock>
-
-                <TextBox x:Name="tbGroceries"
-                    Grid.Column="1"
-                    Grid.Row="1"
-                    FontSize="32"
-                         Margin="20"
-                    Foreground="White"
-                         ></TextBox>
-
-                <TextBlock 
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="2"
-                FontWeight="Bold"
-                FontSize="32">Enter water and lights cost:</TextBlock>
-
-                <TextBox x:Name="tbWaterLights"
-                    Grid.Column="1"
-                    Grid.Row="2"
-                    FontSize="32"
-                         Margin="20"
+            <TextBox x:Name="tbOther"
+                     PlaceholderText="Please enter other miscellanous expenses"
+                     Header="Other"
+                      Margin="300 20 300 20"   
                     Foreground="White"></TextBox>
 
-                <TextBlock 
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="3"
-                FontWeight="Bold"
-                FontSize="32">Enter travel costs(including fuel):</TextBlock>
-
-                <TextBox x:Name="tbTravel"
-                    Grid.Column="1"
-                    Grid.Row="3"
-                    FontSize="32"
-                         Margin="20"
-                    Foreground="White"></TextBox>
-
-                <TextBlock 
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="4"
-                FontWeight="Bold"
-                FontSize="32">Enter cell phone and telephone costs:</TextBlock>
-
-                <TextBox x:Name="tbPhone"
-                    Grid.Column="1"
-                    Grid.Row="4"
-                    FontSize="32"
-                         Margin="20"
-                    Foreground="White"></TextBox>
-
-                <TextBlock 
-                Margin="0 20"
-                Foreground="White" 
-                Grid.Column="0" 
-                Grid.Row="5"
-                FontWeight="Bold"
-                FontSize="32">Enter any other expenses:</TextBlock>
-
-                <TextBox x:Name="tbOther"
-                    Grid.Column="1"
-                    Grid.Row="5"
-                    FontSize="32"
-                         Margin="20"
-                    Foreground="White"></TextBox>
-
-            </Grid>
 
             <Button x:Name="btnSubmit"
                 Margin="0 60"
@@ -146,7 +68,6 @@
                 Click="btnSubmit_Click"
                 FontSize="34">Submit expenses</Button>
         </StackPanel>
-    </Grid>
 
 
 </Page>

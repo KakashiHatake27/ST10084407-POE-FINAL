@@ -167,6 +167,7 @@
     <Content Include="Assets\Icons\Account.ico" />
     <Content Include="Assets\Icons\bagofmoney.ico" />
     <Content Include="Assets\Icons\cash.ico" />
+    <Content Include="Assets\Img\Accounts.png" />
     <Content Include="Assets\Img\bg.jpg" />
     <Content Include="Assets\Img\bg2.jpg" />
     <Content Include="Assets\Icons\car.ico" />
@@ -185,6 +186,7 @@
     <Content Include="Assets\Img\LoadingScreenold.png" />
     <Content Include="Assets\Img\ResidentialBg.jpg" />
     <Content Include="Assets\Img\ResidentialBg2.png" />
+    <Content Include="Assets\Img\Savings.png" />
     <Content Include="Assets\Img\standingcoins.jpg" />
     <Content Include="Assets\Img\tablecash.jpg" />
     <Content Include="Assets\SplashScreen.scale-100.png" />

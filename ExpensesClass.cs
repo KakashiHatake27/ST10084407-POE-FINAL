@@ -103,7 +103,7 @@ namespace PoePartThreeFinal
         /// This function displays all the expenses in the expenses list
         public string displayAllExpenses()
         {
-            string expenseList = "\nAll Expenses\n-------------------\n";
+            string expenseList = "";
 
             /* Sorting the expenses list by the value of the expense using the SortExpense class. */
             expenses.Sort(new SortExpenses());

@@ -8,133 +8,66 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Grid Background="Black">
-            <Grid x:Name="BG">
-                <Grid.Background>
-                    <ImageBrush x:Name="_img_bg"
+    <StackPanel>
+
+        <StackPanel.Background>
+            <ImageBrush x:Name="_img_bg"
                     ImageSource="Assets/Img/CarBg2.jpg"
                             Stretch="Fill"/>
-                </Grid.Background>
-            </Grid>
-        </Grid>
+        </StackPanel.Background>
 
-        <StackPanel>
-            <TextBlock FontSize="72" 
+        <TextBlock FontSize="52" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold"
-                       Margin="0 20 0 100"
+                       Margin="0 20 0 70"
                    >Vehicle Section</TextBlock>
 
-            <TextBlock
-                Foreground="White"></TextBlock>
-            <Grid Width="1503">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="829*"/>
-                    <ColumnDefinition Width="674*"/>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-
-                <TextBlock
-                    FontSize="32"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    Foreground="White" 
-                    Margin="30,20,28,20"
-                    >Enter make and model of the vehicle:</TextBlock>
-
-                <TextBox x:Name="tbModel"
-                    FontSize="32"
-                    Grid.Row="0"
-                    Grid.Column="1"
-                    Margin="20 20 100 20"
-                    Foreground="White"
-                    ></TextBox>
+        <TextBox x:Name="tbModel"
+                         Margin="300 20 300 20"
+                         Header="Make and model"
+                         FontSize="16"
+                         PlaceholderText="Please enter make and model of the vehicle"   
+                         Foreground="White"/>
 
 
+        <TextBox x:Name="tbPrice"
+                         Margin="300 20 300 20"
+                         Header="Purchase price"
+                         FontSize="16"
+                         PlaceholderText="Please enter purchase price of the vehicle"
+                         Foreground="White"/>
 
-                <TextBlock
-                    FontSize="32"
-                    Grid.Row="1"
-                    Grid.Column="0"
-                    Foreground="White" Margin="30,20,28,20"
-                    >Enter the purchase price of the vehicle:</TextBlock>
+        <TextBox x:Name="tbDeposit"
+                         Margin="300 20 300 20"
+                         Header="Total Deposit"
+                         FontSize="16"
+                         PlaceholderText="Please enter total deposit for the vehicle"
+                         Foreground="White"/>
 
-                <TextBox x:Name="tbPrice"
-                    FontSize="32"
-                    Grid.Row="1"
-                    Grid.Column="1"
-                    Margin="20 20 100 20"
-                    Foreground="White"
-                    ></TextBox>
-
-                <TextBlock
-                    FontSize="32"
-                    Grid.Row="2"
-                    Grid.Column="0"
-                    Foreground="White" Margin="30,20,28,20"
-                    >Enter total deposit for the vehicle:</TextBlock>
-
-                <TextBox x:Name="tbDeposit"
-                    FontSize="32"
-                    Grid.Row="2"
-                    Grid.Column="1"
-                    Margin="20 20 100 20"
-                    Foreground="White"
-                    ></TextBox>
+        <TextBox x:Name="tbInterest"
+                         Header="Interest rate"
+                         FontSize="16"
+                         PlaceholderText="Please enter the interest rate percentage for the vehicle"
+                         Margin="300 20 300 20"
+                         Foreground="White"/>
 
 
-                <TextBlock
-                    FontSize="32"
-                    Grid.Row="3"
-                    Grid.Column="0"
-                    Foreground="White" Margin="30,20,28,20"
-                    >Enter the interest rate percentage for the vehicle:</TextBlock>
-
-                <TextBox x:Name="tbInterest"
-                    FontSize="32"
-                    Grid.Row="3"
-                    Grid.Column="1"
-                    Margin="20 20 100 20"
-                    Foreground="White"
-                    ></TextBox>
+        <TextBox x:Name="tbInsurance"
+                         Header="Insurance premium"
+                         FontSize="16"
+                         PlaceholderText="Please enter the estimated insurance premium of the vehicle"
+                         Margin="300 20 300 20"
+                         Foreground="White"/>
 
 
-                <TextBlock
-                    FontSize="32"
-                    Grid.Row="4"
-                    Grid.Column="0"
-                    Foreground="White" Margin="30,20,28,20"
-                    >Enter the estimated insurance premium of the vehicle:</TextBlock>
-
-                
-                <TextBox x:Name="tbInsurance"
-                    FontSize="32"
-                    Grid.Row="4"
-                    Grid.Column="1"
-                    Margin="20 20 100 20"
-                    Foreground="White"
-                    ></TextBox>
-
-            </Grid>
-
-            <Button x:Name="btnSubmit"
+        <Button x:Name="btnSubmit"
                     Click="btnSubmit_Click"
-                FontSize="36"
-                Margin="0 100 0 100"
-                HorizontalAlignment="Center"
-                >Submit</Button>
-            
-        </StackPanel>
+                    FontSize="34"
+                    Margin="0 150 0 100"
+                    HorizontalAlignment="Center"
+                    Content="Submit"/>
 
-
-    </Grid>
+    </StackPanel>
 </Page>
