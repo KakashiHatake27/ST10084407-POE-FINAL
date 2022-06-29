@@ -41,7 +41,7 @@ namespace PoePartThreeFinal
             vc.InterestRate = Convert.ToDouble(tbInterest.Text);
             vc.InsurancePremium = Convert.ToDouble(tbInsurance.Text);
 
-            await store.WriteData("Vehicle " + vc.showVehicle());
+            await store.WriteData(vc.showVehicle());
 
             var messageDialog = new MessageDialog("Vehicle added successfully");
 

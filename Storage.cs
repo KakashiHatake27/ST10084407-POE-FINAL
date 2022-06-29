@@ -11,11 +11,11 @@ namespace PoePartThreeFinal
     {
         string filePath;
 
-        public async Task WriteData(String textToSave)
+        public async Task WriteData(String Data)
         {
             var appFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
             var file = await appFolder.CreateFileAsync("BudgetApp.txt", Windows.Storage.CreationCollisionOption.OpenIfExists);
-            await Windows.Storage.FileIO.AppendTextAsync(file, textToSave + Environment.NewLine);
+            await Windows.Storage.FileIO.AppendTextAsync(file, Data + Environment.NewLine);
 
             filePath = file.Path.ToString();
 
@@ -26,7 +26,7 @@ namespace PoePartThreeFinal
 
         public string ReadData()
         {
-            File();
+            assignFile();
 
             try
             {
@@ -55,7 +55,7 @@ namespace PoePartThreeFinal
 
         public string ReadDataCustom(string section) 
         {
-            File();
+            assignFile();
 
             try
             {
@@ -71,16 +71,16 @@ namespace PoePartThreeFinal
                     if (line.Contains(section))
                     {
                         
-                        builder.AppendLine(RemovePart(section, line));
-                        break;
+                        builder.AppendLine(RemovePart(section,line));
                     }
+                    
                 }
                 reader.Close();
                 return builder.ToString();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return ex.ToString();
+                return "";
             }
 
 
@@ -103,7 +103,7 @@ namespace PoePartThreeFinal
         } 
 
 
-        private async void File()
+        private async void assignFile()
         {
 
             var appFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
@@ -111,6 +111,14 @@ namespace PoePartThreeFinal
 
 
             filePath = file.Path.ToString();
+        }
+
+        public async void EraseData() {
+            var appFolder = Windows.Storage.ApplicationData.Current.LocalFolder;
+            var file = await appFolder.CreateFileAsync("BudgetApp.txt", Windows.Storage.CreationCollisionOption.OpenIfExists);
+
+            File.Delete(@file.Path.ToString());
+
         }
 
     }

@@ -31,13 +31,13 @@ namespace PoePartThreeFinal
     public sealed partial class MainPage : Page
     {
 
-        Account acc = new Account();    
+        Account acc = new Account();
 
 
         public MainPage()
         {
             this.InitializeComponent();
-         }
+        }
 
         private void NavView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
@@ -60,6 +60,8 @@ namespace PoePartThreeFinal
         private async void ExitPrompt()
         {
 
+            Storage store = new Storage();
+
             MessageDialog showDialog = new MessageDialog("Are you sure you want to close the application?", "Exit");
             showDialog.Commands.Add(new UICommand("Yes")
             {
@@ -74,6 +76,7 @@ namespace PoePartThreeFinal
             var result = await showDialog.ShowAsync();
             if ((int)result.Id == 0)
             {
+                store.EraseData();
                 Application.Current.Exit();
             }
 
@@ -82,7 +85,7 @@ namespace PoePartThreeFinal
 
         private void NavView_Loaded(object sender, RoutedEventArgs e)
         {
-            ContentFrame.Navigate(typeof(Home));        
+            ContentFrame.Navigate(typeof(Home));
         }
 
         private void NavView_BackRequested(NavigationView sender, NavigationViewBackRequestedEventArgs args)

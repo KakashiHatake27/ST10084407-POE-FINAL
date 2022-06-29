@@ -12,7 +12,7 @@
         <TextBlock 
             HorizontalAlignment="Center"
             Margin="50"
-            FontSize="48"
+            FontSize="38"
             Foreground="White">Account Information</TextBlock>
 
         <Grid Margin="300 20 300 0">
@@ -31,7 +31,7 @@
             <TextBlock 
                 Grid.Row="0" 
                 Grid.Column="0"
-                FontSize="32"
+
                 HorizontalTextAlignment="Center"
                 Foreground="White">Income:</TextBlock>
 
@@ -39,7 +39,7 @@
                 x:Name="tbIncome"
                 Grid.Row="0"
                 Grid.Column="1"
-                FontSize="32"
+
                 Foreground="White">Value not set </TextBlock>
 
 
@@ -47,7 +47,7 @@
             <TextBlock 
                 Grid.Row="1" 
                 Grid.Column="0"
-                FontSize="32"
+               
                 Margin="20"
                 HorizontalTextAlignment="Center"
                 Foreground="White">Expense:</TextBlock>
@@ -56,14 +56,14 @@
                 x:Name="tbExpense"
                 Grid.Row="1"
                 Grid.Column="1"
-                FontSize="32"
+              
                 Margin="0 20 0 0 "
                 Foreground="White">Value not set</TextBlock>
 
             <TextBlock 
                 Grid.Row="2" 
                 Grid.Column="0"
-                FontSize="32"
+     
                 Margin="20"
                 HorizontalTextAlignment="Center"
                 Foreground="White">Residential Status:</TextBlock>
@@ -72,14 +72,14 @@
                 x:Name="tbHousing"
                 Grid.Row="2"
                 Grid.Column="1"
-                FontSize="32"
+   
                 Margin="0 20 0 0 "
                 Foreground="White">Value not set</TextBlock>
 
             <TextBlock 
                 Grid.Row="3" 
                 Grid.Column="0"
-                FontSize="32"
+    
                 Margin="20"
                 HorizontalTextAlignment="Center"
                 Foreground="White">Vehicle:</TextBlock>
@@ -88,7 +88,7 @@
                 x:Name="tbCar"
                 Grid.Row="3"
                 Grid.Column="1"
-                FontSize="32"
+              
                 Margin="0 20 0 0 "
                 Foreground="White">Value not set</TextBlock>
 

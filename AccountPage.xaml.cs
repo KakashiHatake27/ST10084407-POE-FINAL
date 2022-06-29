@@ -30,11 +30,15 @@ namespace PoePartThreeFinal
             Account acc = new Account();
             VehicleClass vehicle = new VehicleClass();
 
+            Storage store = new Storage();
 
             string expenseList = acc.displayAllExpenses() + "\n" + vehicle.showVehicle();
 
             tbIncome.Text = acc.getIncome().ToString();
-            tbExpense.Text = expenseList;
+            //tbExpense.Text = expenseList;
+            tbExpense.Text = store.ReadDataCustom("Vehicle");
+            //tbCar.Text = store.ReadDataCustom("Vehicle");
+            tbCar.Text = store.ReadData();
             //tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
         }
     }

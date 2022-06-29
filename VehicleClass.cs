@@ -30,11 +30,12 @@ namespace PoePartThreeFinal
 
 
         public string showVehicle() {
-            string vehicleInfo = "Vehicle Make and model" + MakeAndModel +
-                "\nVehicle Purchase price" + PurchasePrice.ToString()+
-                "\nVehicle Deposit" + Deposit.ToString()+
-                "\nVehicle Interest" + InterestRate.ToString()+
-                "\nVehicle Insurance" + InsurancePremium.ToString();
+            string vehicleInfo = "Vehicle Make and model - " + MakeAndModel +
+                "\nVehicle Purchase price - R" + PurchasePrice.ToString()+
+                "\nVehicle Deposit - R" + Deposit.ToString()+
+                "\nVehicle Interest - " + InterestRate.ToString()+"%"+
+                "\nVehicle Insurance - R" + InsurancePremium.ToString()+
+                "\nVehicle Monthly Cost - R" + calcMonthlyCost().ToString();
 
             return vehicleInfo;
         }
