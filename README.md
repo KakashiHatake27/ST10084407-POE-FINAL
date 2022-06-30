@@ -14,10 +14,11 @@ This is the complete budget application
 - .NET Framework : version 4.7.2
 - Threading 
 - IComparer interface for sorting
+- MessageDialog
 
 
 ### Link to kanban project board:
-https://github.com/users/KakashiHatake27/projects/1
+[https://github.com/KakashiHatake27/ST10084407-POE-FINAL/projects/1]
 
 
 ### Code attribution:
