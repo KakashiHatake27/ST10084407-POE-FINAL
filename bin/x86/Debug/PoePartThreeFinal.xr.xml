@@ -8,7 +8,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
-      <RootEvent Name="GotFocus" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
@@ -64,7 +63,6 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Content" />
-      <RootProperty Name="Foreground" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="PoePartThreeFinal.BuyHouse" />
@@ -82,7 +80,6 @@
       <RootEvent Name="Loaded" />
       <RootEvent Name="SelectionChanged" />
       <RootEvent Name="BackRequested" />
-      <RootEvent Name="PaneClosed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
@@ -108,6 +105,7 @@
     <RootType FullName="PoePartThreeFinal.MainPage" />
     <RootType FullName="PoePartThreeFinal.renting" />
     <RootType FullName="PoePartThreeFinal.Residential" />
+    <RootType FullName="PoePartThreeFinal.Savings" />
     <RootType FullName="PoePartThreeFinal.Vehicle" />
   </Roots.RootTypes>
 </Roots>

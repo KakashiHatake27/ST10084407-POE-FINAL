@@ -12,7 +12,7 @@
 
         <StackPanel.Background>
             <ImageBrush x:Name="_img_bg"
-                    ImageSource="Assets/Img/Cagemoney2.png"
+                    ImageSource="Assets/Img/Cagemoney.png"
                             Stretch="Fill"/>
         </StackPanel.Background>
 

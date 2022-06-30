@@ -22,7 +22,7 @@
                    Foreground="White" 
                    FontWeight="ExtraBold"
                        Margin="0 20 0 70"
-                   >Vehicle Section</TextBlock>
+                   >Vehicle</TextBlock>
 
         <TextBox x:Name="tbModel"
                          Margin="300 20 300 20"

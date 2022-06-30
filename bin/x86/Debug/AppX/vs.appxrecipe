@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-NDKN3L2</Machine>
-    <WindowsUser>kakas</WindowsUser>
+    <Machine>MENOS</Machine>
+    <WindowsUser>Akshdeep</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>01ced766-b857-443f-83c3-fcb604fe24c3</PackageIdentityName>
     <PackageIdentityPublisher>CN=kakas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\kakas\source\repos\PoePartThreeFinal\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>BF66E0036BB6DA073EE89B765DEDE737170785F831747B5014C0149B1853675B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>01ced766-b857-443f-83c3-fcb604fe24c3_1.0.0.0_x86__xr40n2z4ehcw6</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>01ced766-b857-443f-83c3-fcb604fe24c3_xr40n2z4ehcw6!App</RegisteredUserModeAppID>
@@ -27,332 +27,348 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-30T13:17:01.205</Modified>
+      <Modified>2022-06-30T15:49:12.902</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.exe">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.exe">
       <PackagePath>entrypoint\PoePartThreeFinal.exe</PackagePath>
-      <Modified>2022-06-30T13:16:59.984</Modified>
+      <Modified>2022-06-30T15:49:12.136</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2021-10-10T13:49:52.000</Modified>
+      <Modified>2021-10-10T04:49:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2020-12-02T11:52:00.000</Modified>
+      <Modified>2020-12-02T02:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\Account.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\Account.ico">
       <PackagePath>Assets\Icons\Account.ico</PackagePath>
-      <Modified>2022-06-17T15:21:59.508</Modified>
+      <Modified>2022-06-30T13:40:23.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\bagofmoney.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\bagofmoney.ico">
       <PackagePath>Assets\Icons\bagofmoney.ico</PackagePath>
-      <Modified>2022-06-15T10:04:41.644</Modified>
+      <Modified>2022-06-30T13:40:23.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\cash.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\cash.ico">
       <PackagePath>Assets\Icons\cash.ico</PackagePath>
-      <Modified>2022-06-15T10:04:41.639</Modified>
+      <Modified>2022-06-30T13:40:23.605</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\car.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\savings.ico">
+      <PackagePath>Assets\Icons\savings.ico</PackagePath>
+      <Modified>2022-06-30T15:09:56.210</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\car.ico">
       <PackagePath>Assets\Icons\car.ico</PackagePath>
-      <Modified>2022-06-13T14:24:01.478</Modified>
+      <Modified>2022-06-30T13:40:23.574</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\exit.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\exit.ico">
       <PackagePath>Assets\Icons\exit.ico</PackagePath>
-      <Modified>2022-06-13T14:24:01.480</Modified>
+      <Modified>2022-06-30T13:40:23.637</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\home.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\home.ico">
       <PackagePath>Assets\Icons\home.ico</PackagePath>
-      <Modified>2022-06-13T14:24:01.485</Modified>
+      <Modified>2022-06-30T13:40:23.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Icons\money.ico">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Icons\money.ico">
       <PackagePath>Assets\Icons\money.ico</PackagePath>
-      <Modified>2022-06-13T14:24:01.489</Modified>
+      <Modified>2022-06-30T13:40:23.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\Accounts.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Accounts.png">
       <PackagePath>Assets\Img\Accounts.png</PackagePath>
-      <Modified>2022-06-29T22:11:35.126</Modified>
+      <Modified>2022-06-30T13:40:23.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\cagemoney2.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\cagemoney.png">
+      <PackagePath>Assets\Img\cagemoney.png</PackagePath>
+      <Modified>2022-06-30T15:04:59.038</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\cagemoney2.png">
       <PackagePath>Assets\Img\cagemoney2.png</PackagePath>
-      <Modified>2022-06-27T14:09:41.621</Modified>
+      <Modified>2022-06-30T13:40:24.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreen.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\LoadingScreen.png">
       <PackagePath>Assets\Img\LoadingScreen.png</PackagePath>
-      <Modified>2022-06-13T18:09:43.247</Modified>
+      <Modified>2022-06-30T13:40:24.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreen4.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\LoadingScreen4.png">
       <PackagePath>Assets\Img\LoadingScreen4.png</PackagePath>
-      <Modified>2022-06-13T18:28:38.596</Modified>
+      <Modified>2022-06-30T13:40:24.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\LoadingScreenold.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\LoadingScreenold.png">
       <PackagePath>Assets\Img\LoadingScreenold.png</PackagePath>
-      <Modified>2022-06-13T18:00:10.175</Modified>
+      <Modified>2022-06-30T13:40:24.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\ResidentialBg2.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\ResidentialBg2.png">
       <PackagePath>Assets\Img\ResidentialBg2.png</PackagePath>
-      <Modified>2022-06-15T10:22:48.513</Modified>
+      <Modified>2022-06-30T13:40:24.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\Savings.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Savings.png">
       <PackagePath>Assets\Img\Savings.png</PackagePath>
-      <Modified>2022-06-29T22:11:35.094</Modified>
+      <Modified>2022-06-30T13:40:24.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Savings2.png">
+      <PackagePath>Assets\Img\Savings2.png</PackagePath>
+      <Modified>2022-06-30T15:04:59.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-17T12:11:54.962</Modified>
+      <Modified>2022-06-30T13:40:22.668</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-17T12:11:55.103</Modified>
+      <Modified>2022-06-30T13:40:22.715</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-17T12:11:55.243</Modified>
+      <Modified>2022-06-30T13:40:22.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-17T12:11:55.964</Modified>
+      <Modified>2022-06-30T13:40:22.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.525</Modified>
+      <Modified>2022-06-30T13:40:22.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.532</Modified>
+      <Modified>2022-06-30T13:40:22.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.571</Modified>
+      <Modified>2022-06-30T13:40:22.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.543</Modified>
+      <Modified>2022-06-30T13:40:22.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.551</Modified>
+      <Modified>2022-06-30T13:40:22.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.474</Modified>
+      <Modified>2022-06-30T13:40:22.996</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.516</Modified>
+      <Modified>2022-06-30T13:40:23.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.490</Modified>
+      <Modified>2022-06-30T13:40:23.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.497</Modified>
+      <Modified>2022-06-30T13:40:23.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.374</Modified>
+      <Modified>2022-06-30T13:40:23.105</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.scale-125.png">
       <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.383</Modified>
+      <Modified>2022-06-30T13:40:23.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.scale-150.png">
       <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.392</Modified>
+      <Modified>2022-06-30T13:40:23.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.414</Modified>
+      <Modified>2022-06-30T13:40:23.215</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.425</Modified>
+      <Modified>2022-06-30T13:40:23.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.432</Modified>
+      <Modified>2022-06-30T13:40:23.277</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.466</Modified>
+      <Modified>2022-06-30T13:40:23.340</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-32.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.441</Modified>
+      <Modified>2022-06-30T13:40:23.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.449</Modified>
+      <Modified>2022-06-30T13:40:23.387</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2022-05-07T20:08:03.578</Modified>
+      <Modified>2022-06-30T13:40:22.652</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-17T12:11:55.428</Modified>
+      <Modified>2022-06-30T13:40:22.777</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-07T20:08:03.580</Modified>
+      <Modified>2022-06-30T13:40:22.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.400</Modified>
+      <Modified>2022-06-30T13:40:23.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-15T08:52:57.480</Modified>
+      <Modified>2022-06-30T13:40:23.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-07T20:08:03.581</Modified>
+      <Modified>2022-06-30T13:40:23.418</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-05-07T20:08:03.582</Modified>
+      <Modified>2022-06-30T13:40:23.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\bg.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\bg.jpg">
       <PackagePath>Assets\Img\bg.jpg</PackagePath>
-      <Modified>2022-06-13T14:24:01.468</Modified>
+      <Modified>2022-06-30T13:40:24.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\bg2.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\bg2.jpg">
       <PackagePath>Assets\Img\bg2.jpg</PackagePath>
-      <Modified>2022-06-13T14:24:01.476</Modified>
+      <Modified>2022-06-30T13:40:24.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\cagemoney.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\cagemoney.jpg">
       <PackagePath>Assets\Img\cagemoney.jpg</PackagePath>
-      <Modified>2022-06-15T10:14:27.450</Modified>
+      <Modified>2022-06-30T13:40:24.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\CarBg.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\CarBg.jpg">
       <PackagePath>Assets\Img\CarBg.jpg</PackagePath>
-      <Modified>2022-06-13T14:47:53.058</Modified>
+      <Modified>2022-06-30T13:40:24.011</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\CarBg2.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\CarBg2.jpg">
       <PackagePath>Assets\Img\CarBg2.jpg</PackagePath>
-      <Modified>2022-06-13T14:52:19.465</Modified>
+      <Modified>2022-06-30T13:40:24.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\coins.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\coins.jpg">
       <PackagePath>Assets\Img\coins.jpg</PackagePath>
-      <Modified>2022-06-15T10:14:27.435</Modified>
+      <Modified>2022-06-30T13:40:24.746</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\house.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\house.jpg">
       <PackagePath>Assets\Img\house.jpg</PackagePath>
-      <Modified>2022-06-27T18:37:09.028</Modified>
+      <Modified>2022-06-30T13:40:24.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\house2.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\house2.jpg">
       <PackagePath>Assets\Img\house2.jpg</PackagePath>
-      <Modified>2022-06-27T19:06:37.184</Modified>
+      <Modified>2022-06-30T13:40:24.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\ResidentialBg.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\ResidentialBg.jpg">
       <PackagePath>Assets\Img\ResidentialBg.jpg</PackagePath>
-      <Modified>2022-06-13T14:53:29.437</Modified>
+      <Modified>2022-06-30T13:40:24.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\standingcoins.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\standingcoins.jpg">
       <PackagePath>Assets\Img\standingcoins.jpg</PackagePath>
-      <Modified>2022-06-15T10:14:27.447</Modified>
+      <Modified>2022-06-30T13:40:24.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Assets\Img\tablecash.jpg">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\tablecash.jpg">
       <PackagePath>Assets\Img\tablecash.jpg</PackagePath>
-      <Modified>2022-06-15T10:14:27.439</Modified>
+      <Modified>2022-06-30T13:40:24.965</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2022-06-13T14:13:20.596</Modified>
+      <Modified>2022-06-30T13:40:25.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.xr.xml">
       <PackagePath>PoePartThreeFinal.xr.xml</PackagePath>
-      <Modified>2022-06-30T11:52:50.737</Modified>
+      <Modified>2022-06-30T15:49:12.058</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.868</Modified>
+      <Modified>2022-06-30T15:49:12.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\AccountPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\AccountPage.xbf">
       <PackagePath>AccountPage.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.072</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf">
       <PackagePath>BuyHouse.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf">
       <PackagePath>Expenses.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Home.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Income.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Income.xbf">
       <PackagePath>Income.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf">
       <PackagePath>LoadingScreen.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.869</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.870</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\renting.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\renting.xbf">
       <PackagePath>renting.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.870</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Residential.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Residential.xbf">
       <PackagePath>Residential.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.870</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Vehicle.xbf">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Savings.xbf">
+      <PackagePath>Savings.xbf</PackagePath>
+      <Modified>2022-06-30T15:49:12.073</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Vehicle.xbf">
       <PackagePath>Vehicle.xbf</PackagePath>
-      <Modified>2022-06-30T13:16:59.870</Modified>
+      <Modified>2022-06-30T15:49:12.073</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2020-12-02T09:52:06.000</Modified>
+      <Modified>2020-12-02T00:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-29T22:19:30.684</Modified>
+      <Modified>2022-06-30T15:49:12.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kakas\source\repos\PoePartThreeFinal\bin\x86\Debug\Core\PoePartThreeFinal.exe">
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Core\PoePartThreeFinal.exe">
       <PackagePath>PoePartThreeFinal.exe</PackagePath>
-      <Modified>2022-06-30T13:17:01.189</Modified>
+      <Modified>2022-06-30T15:49:12.900</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

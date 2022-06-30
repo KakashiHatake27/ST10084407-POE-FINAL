@@ -45,11 +45,20 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
-                <TextBlock Grid.ColumnSpan="2" Grid.Row="0" FontSize="54">Please choose your residential status</TextBlock>
+                <TextBlock 
+                    Grid.ColumnSpan="2" 
+                    Grid.Row="0" 
+                    Foreground="White" 
+                    FontSize="32">Please choose your residential status</TextBlock>
                 
-                <Button x:ConnectionId='2'                      Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
+                <Button x:ConnectionId='2' x:Name="btnRent"
+                                          
+                    Grid.Row="0" 
+                    Grid.Column="0" 
+                    FontSize="24" 
+                    Margin="10 100 10 10">Renting</Button>
 
-                <Button x:ConnectionId='3' x:Name="btnHouse"                        Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>
+                <Button x:ConnectionId='3' x:Name="btnHouse"                        Grid.Row="0" Grid.Column="1" FontSize="24" Margin="10 100 10 10">Buying a house</Button>
             </Grid>
             
         </StackPanel>

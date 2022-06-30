@@ -52,6 +52,7 @@ namespace PoePartThreeFinal
                     case "pgResidential": ContentFrame.Navigate(typeof(Residential)); break;
                     case "pgIncome": ContentFrame.Navigate(typeof(Income)); break;
                     case "pgExpense": ContentFrame.Navigate(typeof(Expenses)); break;
+                    case "pgSavings": ContentFrame.Navigate(typeof(Savings)); break;
                 }
             }
         }
@@ -99,15 +100,6 @@ namespace PoePartThreeFinal
             ExitPrompt();
         }
 
-        private void Page_GotFocus(object sender, RoutedEventArgs e)
-        {
 
-        }
-
-        private void NavView_PaneClosed(NavigationView sender, object args)
-        {
-
-
-        }
     }
 }

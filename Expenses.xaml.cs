@@ -43,9 +43,9 @@ namespace PoePartThreeFinal
             Storage store = new Storage();
 
 
-            var messageDialog2 = new MessageDialog(account.displayAllExpenses());
+            //var messageDialog2 = new MessageDialog(account.displayAllExpenses());
 
-            await messageDialog2.ShowAsync();
+            //await messageDialog2.ShowAsync();
 
             await store.WriteData(account.displayAllExpenses());
             //await store.WriteData("Total Expense " + account.calcTotalExpenses().ToString());

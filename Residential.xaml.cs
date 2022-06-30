@@ -31,11 +31,6 @@ namespace PoePartThreeFinal
             this.InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            FindParent<Frame>(this.Frame)?.Navigate(typeof(renting));
-
-        }
 
         private void btnHouse_Click(object sender, RoutedEventArgs e)
         {
@@ -51,6 +46,12 @@ namespace PoePartThreeFinal
 
             var parent = parentObject as T;
             return parent ?? FindParent<T>(parentObject);
+        }
+
+        private void btnRent_Click(object sender, RoutedEventArgs e)
+        {
+
+            FindParent<Frame>(this.Frame)?.Navigate(typeof(renting));
         }
     }
 }
