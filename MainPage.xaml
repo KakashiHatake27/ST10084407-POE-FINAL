@@ -21,8 +21,13 @@
 
                 <NavigationViewItem Icon="Home" Content="Home" Tag ="pgHome"/>
 
-                
-                
+
+                <NavigationViewItem Content="Account Balance" Tag="pgAccount">
+                    <NavigationViewItem.Icon>
+                        <BitmapIcon UriSource="Assets/Icons/cash.ico"/>
+                    </NavigationViewItem.Icon>
+                </NavigationViewItem>
+
                 <NavigationViewItemSeparator/>
 
                 <NavigationViewItem Content="Income" Tag="pgIncome">

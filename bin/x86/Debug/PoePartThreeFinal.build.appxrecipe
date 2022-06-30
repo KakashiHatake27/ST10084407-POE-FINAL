@@ -61,6 +61,9 @@
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Accounts.png">
       <PackagePath>Assets\Img\Accounts.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Accounts2.png">
+      <PackagePath>Assets\Img\Accounts2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\cagemoney.png">
       <PackagePath>Assets\Img\cagemoney.png</PackagePath>
     </AppxPackagedFile>
@@ -256,9 +259,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Income.xbf">
       <PackagePath>Income.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf">
-      <PackagePath>LoadingScreen.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

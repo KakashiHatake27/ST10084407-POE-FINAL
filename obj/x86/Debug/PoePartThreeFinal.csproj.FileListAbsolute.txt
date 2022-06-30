@@ -94,7 +94,6 @@ C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Home.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Income.xbf
-C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\renting.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Residential.xbf
@@ -123,8 +122,6 @@ C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Home.g.i.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Home.g.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Income.g.i.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Income.g.cs
-C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.i.cs
-C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.g.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\MainPage.g.i.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\MainPage.g.cs
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\renting.g.i.cs
@@ -142,7 +139,6 @@ C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\BuyHouse.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Expenses.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Home.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Income.xaml
-C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\MainPage.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\renting.xaml
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Residential.xaml
@@ -154,7 +150,6 @@ C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\BuyHouse.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Expenses.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Home.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Income.xbf
-C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\LoadingScreen.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\MainPage.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\renting.xbf
 C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\obj\x86\Debug\Residential.xbf

@@ -41,6 +41,7 @@ namespace PoePartThreeFinal
 
             string rentalData = "Rental " + account.getRental().ToString();
 
+
             await store.WriteData(rentalData);
 
 

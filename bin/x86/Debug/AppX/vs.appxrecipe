@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-06-30T15:49:12.902</Modified>
+      <Modified>2022-06-30T17:15:15.506</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.exe">
       <PackagePath>entrypoint\PoePartThreeFinal.exe</PackagePath>
-      <Modified>2022-06-30T15:49:12.136</Modified>
+      <Modified>2022-06-30T17:15:15.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.13\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -81,6 +81,10 @@
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Accounts.png">
       <PackagePath>Assets\Img\Accounts.png</PackagePath>
       <Modified>2022-06-30T13:40:23.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\Accounts2.png">
+      <PackagePath>Assets\Img\Accounts2.png</PackagePath>
+      <Modified>2022-06-30T15:57:07.303</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\Assets\Img\cagemoney.png">
       <PackagePath>Assets\Img\cagemoney.png</PackagePath>
@@ -308,55 +312,51 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\PoePartThreeFinal.xr.xml">
       <PackagePath>PoePartThreeFinal.xr.xml</PackagePath>
-      <Modified>2022-06-30T15:49:12.058</Modified>
+      <Modified>2022-06-30T16:20:00.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.072</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\AccountPage.xbf">
       <PackagePath>AccountPage.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.072</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\BuyHouse.xbf">
       <PackagePath>BuyHouse.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Expenses.xbf">
       <PackagePath>Expenses.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Income.xbf">
       <PackagePath>Income.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\LoadingScreen.xbf">
-      <PackagePath>LoadingScreen.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\renting.xbf">
       <PackagePath>renting.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Residential.xbf">
       <PackagePath>Residential.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Savings.xbf">
       <PackagePath>Savings.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Vehicle.xbf">
       <PackagePath>Vehicle.xbf</PackagePath>
-      <Modified>2022-06-30T15:49:12.073</Modified>
+      <Modified>2022-06-30T17:15:15.112</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -364,11 +364,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-06-30T15:49:12.353</Modified>
+      <Modified>2022-06-30T16:20:00.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Akshdeep\Documents\Poe\PoePartThreeFinal\bin\x86\Debug\Core\PoePartThreeFinal.exe">
       <PackagePath>PoePartThreeFinal.exe</PackagePath>
-      <Modified>2022-06-30T15:49:12.900</Modified>
+      <Modified>2022-06-30T17:15:15.504</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

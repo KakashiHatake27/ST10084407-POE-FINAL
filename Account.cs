@@ -14,7 +14,7 @@ namespace PoePartThreeFinal
     {
 
         public const string EXCEED_MESSAGE = "ALERT! YOUR TOTAL EXPENSES ARE EXCEEDING 75% OF YOUR INCOME!!!";
-        public const string UNLIKELY_APPROVAL_MESSAGE = "\nALERT: The approval of this home loan is unlikely";
+        private const string uNLIKELY_APPROVAL_MESSAGE = "ALERT: The approval of this home loan is unlikely";
 
         /* Declaring the variables. */
         private double grossMonthlyIncome;
@@ -24,6 +24,9 @@ namespace PoePartThreeFinal
 
         public double AccountBalance { get => accountBalance; set => accountBalance = value; }
         public double GrossMonthlyIncome { get => grossMonthlyIncome; set => grossMonthlyIncome = value; }
+
+        public static string UNLIKELY_APPROVAL_MESSAGE => uNLIKELY_APPROVAL_MESSAGE;
+
         //public double Rental { get => rental; set => rental = value; }
 
         private int housing;
@@ -187,7 +190,6 @@ namespace PoePartThreeFinal
 
             if (calcTotalExpenses() > partIncome)
             {
-                //Console.WriteLine("\nALERT! YOUR TOTAL EXPENSES ARE EXCEEDING 75% OF YOUR INCOME!!!");
 
                 return true;
             }

@@ -43,17 +43,20 @@ namespace PoePartThreeFinal
             Storage store = new Storage();
 
 
-            //var messageDialog2 = new MessageDialog(account.displayAllExpenses());
+
+
+            //var messageDialog2 = new MessageDialog(account.calcTotalExpenses().ToString());
 
             //await messageDialog2.ShowAsync();
 
             await store.WriteData(account.displayAllExpenses());
+            await store.WriteData("Total" + account.calcTotalExpenses().ToString());
             //await store.WriteData("Total Expense " + account.calcTotalExpenses().ToString());
 
 
             var messageDialog = new MessageDialog("Expenses added successfully");
 
-           await messageDialog.ShowAsync();
+            await messageDialog.ShowAsync();
         }
     }
 }

@@ -8,6 +8,7 @@ Assets\Icons\home.ico
 Assets\Icons\money.ico
 Assets\Icons\savings.ico
 Assets\Img\Accounts.png
+Assets\Img\Accounts2.png
 Assets\Img\bg.jpg
 Assets\Img\bg2.jpg
 Assets\Img\cagemoney.jpg
@@ -62,7 +63,6 @@ BuyHouse.xbf
 Expenses.xbf
 Home.xbf
 Income.xbf
-LoadingScreen.xbf
 MainPage.xbf
 PoePartThreeFinal.xr.xml
 renting.xbf

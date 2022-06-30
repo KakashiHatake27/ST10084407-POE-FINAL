@@ -9,13 +9,61 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel>
+
+        <StackPanel.Background>
+            <ImageBrush x:Name="_img_bg"
+                                ImageSource="Assets/Img/Accounts2.png"
+                                Stretch="Fill"/>
+        </StackPanel.Background>
+
         <TextBlock 
             HorizontalAlignment="Center"
             Margin="50"
             FontSize="38"
             Foreground="White">Account Information</TextBlock>
 
-        <Grid Margin="300 20 300 0">
+        <StackPanel>
+            <TextBlock x:Name="tbIncome"
+                       Foreground="LightGreen"
+                       HorizontalAlignment="Center"
+                       FontSize="20"/>
+
+            <TextBlock x:Name="tbExpense"
+                       Foreground="Red"
+                       FontSize="20"
+                       HorizontalAlignment="Center"/>
+            
+            <TextBlock x:Name="tbResidential"
+                       Foreground="Red"
+                       Margin="50"
+                       FontSize="20"
+                       HorizontalAlignment="Center"/>
+
+
+
+
+            <TextBlock x:Name="tbWarning"
+                       Foreground="Yellow"
+                       Margin="50"
+                       FontSize="20"
+                       HorizontalAlignment="Center"/>
+
+
+            <TextBlock x:Name="tbExceed"
+                       Foreground="Yellow"
+                       Margin="50"
+                       FontSize="20"
+                       HorizontalAlignment="Center"/>
+
+            <TextBlock x:Name="tbBalance"
+                       Margin="50"
+                       FontSize="20"
+                       HorizontalAlignment="Center"/>
+
+        </StackPanel>
+        
+        
+        <!--<Grid Margin="300 20 300 0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -35,16 +83,16 @@
                 HorizontalTextAlignment="Center"
                 Foreground="White">Income:</TextBlock>
 
-            <TextBlock 
+            --><!--<TextBlock 
                 x:Name="tbIncome"
                 Grid.Row="0"
                 Grid.Column="1"
 
-                Foreground="White">Value not set </TextBlock>
+                Foreground="White">Value not set </TextBlock>-->
 
 
 
-            <TextBlock 
+            <!--<TextBlock 
                 Grid.Row="1" 
                 Grid.Column="0"
                
@@ -58,7 +106,7 @@
                 Grid.Column="1"
               
                 Margin="0 20 0 0 "
-                Foreground="White">Value not set</TextBlock>
+                Foreground="White">Value not set</TextBlock>--><!--
 
             <TextBlock 
                 Grid.Row="2" 
@@ -90,14 +138,12 @@
                 Grid.Column="1"
               
                 Margin="0 20 0 0 "
-                Foreground="White">Value not set</TextBlock>
+                Foreground="White">Value not set</TextBlock>-->
 
 
 
-        </Grid>
+        <!--</Grid>-->
 
-        <TextBlock x:Name="tbBalance"
-                   Margin="350 100">Balance:</TextBlock>
     </StackPanel>
     
     
