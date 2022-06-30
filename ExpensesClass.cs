@@ -22,63 +22,64 @@ namespace PoePartThreeFinal
         {
         }
 
-        /// It gets the user's input and stores it in an array
-        public void GetInput()
-        {
-            /* Creating an array of 10 elements. */
+        ///// It gets the user's input and stores it in an array
+        //public void GetInput()
+        //{
+        //    /* Creating an array of 10 elements. */
 
 
-            /* Printing the heading for expeneses. */
-            Console.WriteLine("\n EXPENSES:\n-------------------");
+        //    /* Printing the heading for expeneses. */
+        //    Console.WriteLine("\n EXPENSES:\n-------------------");
 
-            /* Asking the user to enter the estimated monthly tax and then it is converting it to a
-            double and then it is adding it to the array. */
-            Console.Write("Enter estimated monthly tax: ");
-            //expense.Add("Tax", Convert.ToDouble(Console.ReadLine()));
-            //expense.Add("Tax", 26.9);
-            exp = new expense("Tax", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly tax and then it is converting it to a
+        //    double and then it is adding it to the array. */
+        //    Console.Write("Enter estimated monthly tax: ");
+        //    //expense.Add("Tax", Convert.ToDouble(Console.ReadLine()));
+        //    //expense.Add("Tax", 26.9);
+        //    exp = new expense("Tax", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-            /* Printing the text "Please enter monthly estimated cost of the following:" on the console. */
-            Console.WriteLine("\nPlease enter monthly estimated cost of the following:");
+        //    /* Printing the text "Please enter monthly estimated cost of the following:" on the console. */
+        //    Console.WriteLine("\nPlease enter monthly estimated cost of the following:");
 
 
-            /* Asking the user to enter the estimated monthly cost of groceries and then it is
-            converting it to a double and then it is adding it to the array. */
-            Console.Write("Groceries: R ");
-            exp = new expense("Groceries", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly cost of groceries and then it is
+        //    converting it to a double and then it is adding it to the array. */
+        //    Console.Write("Groceries: R ");
+        //    exp = new expense("Groceries", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-            /* Asking the user to enter the estimated monthly cost of water and lights and then it is
-            converting it to a double and then it is adding it to the array. */
-            Console.Write("Water and lights: R ");
-            exp = new expense("Water and lights", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly cost of water and lights and then it is
+        //    converting it to a double and then it is adding it to the array. */
+        //    Console.Write("Water and lights: R ");
+        //    exp = new expense("Water and lights", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-            /* Asking the user to enter the estimated monthly cost of travel costs and then it is
-            converting it to a double and then it is adding it to the array. */
-            Console.Write("Travel costs(including fuel): R ");
-            exp = new expense("Travel costs", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly cost of travel costs and then it is
+        //    converting it to a double and then it is adding it to the array. */
+        //    Console.Write("Travel costs(including fuel): R ");
+        //    exp = new expense("Travel costs", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-            /* Asking the user to enter the estimated monthly cost of cell phone and telephone and then
-            it is
-            converting it to a double and then it is adding it to the array. */
-            Console.Write("Cell phone and Telephone: R ");
-            exp = new expense("Cell phone and Telephone", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly cost of cell phone and telephone and then
+        //    it is
+        //    converting it to a double and then it is adding it to the array. */
+        //    Console.Write("Cell phone and Telephone: R ");
+        //    exp = new expense("Cell phone and Telephone", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-            /* Asking the user to enter the estimated monthly cost of any other miscellaneous expenses
-            and then it is converting it to a double and then it is adding it to the array. */
-            Console.Write("Any other miscellanous expenses: R ");
-            exp = new expense("other", Convert.ToDouble(Console.ReadLine()));
-            expenses.Add(exp);
+        //    /* Asking the user to enter the estimated monthly cost of any other miscellaneous expenses
+        //    and then it is converting it to a double and then it is adding it to the array. */
+        //    Console.Write("Any other miscellanous expenses: R ");
+        //    exp = new expense("other", Convert.ToDouble(Console.ReadLine()));
+        //    expenses.Add(exp);
 
-        }
+        //}
 
 
         public void addExpense(string expenseType, double value) { 
             exp = new expense(expenseType,value);
+            expenses.Add(exp);
         }
 
         /// This function calculates the total expenses of the company by adding all the expenses in the
@@ -114,7 +115,7 @@ namespace PoePartThreeFinal
             foreach (expense exp in expenses)
             {
                 /* Adding the name and value of each expense to the expenseList string. */
-                expenseList += exp.name + "-> R " + exp.value + "\n";
+                expenseList += "Expense " + exp.name + "- R " + exp.value + "\n";
             }
 
            return expenseList;

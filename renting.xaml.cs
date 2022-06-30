@@ -26,25 +26,30 @@ namespace PoePartThreeFinal
     public sealed partial class renting : Page
     {
         Account account = new Account();
-        
+
 
         public renting()
         {
             this.InitializeComponent();
         }
 
-        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            double rental=Convert.ToDouble(tbRental.Text);
-            //account.Rental = rental;
-            account.setRental(rental);
+
+            account.setRental(Convert.ToDouble(tbRental.Text));
+            Storage store = new Storage();
+
+            string rentalData = "Rental " + account.getRental().ToString();
+
+            await store.WriteData(rentalData);
+
 
             var messageDialog = new MessageDialog("Rental added successfully");
 
-            messageDialog.ShowAsync();
+            await messageDialog.ShowAsync();
 
             ShowNewView();
-            
+
         }
 
         private int currentViewId = ApplicationView.GetForCurrentView().Id;
@@ -63,6 +68,6 @@ namespace PoePartThreeFinal
 
             await ApplicationViewSwitcher.SwitchAsync(newViewId, currentViewId, ApplicationViewSwitchingOptions.ConsolidateViews);
         }
-       
+
     }
 }

@@ -7,59 +7,37 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel>
+        <StackPanel.Background>
 
-    <Grid>
-        <Grid Background="Black">
-            <Grid x:ConnectionId='4' x:Name="BG">
-
-                <Grid.Background>
-
-                    <ImageBrush x:ConnectionId='5' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='2' x:Name="_img_bg"
                                 ImageSource="Assets/Img/house.jpg"
                                 Stretch="Fill"/>
-                </Grid.Background>
-            </Grid>
+                </StackPanel.Background>
 
-        </Grid>
-        <StackPanel>
-            <TextBlock Margin="0 20" 
-                FontSize="72" 
+
+        <TextBlock Margin="0 20 0 170"
+                FontSize="52" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
                    FontWeight="ExtraBold">
             Renting</TextBlock>
 
-            <Grid Margin="100 280">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
 
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+        <TextBox x:ConnectionId='3' x:Name="tbRental"
+                 Header="Monthly Rental"
+                 FontSize="16"
+                 PlaceholderText="Please enter your monthly rental amount"
+                      Margin="300 20 300 20"   
+                 Foreground="White"/>
 
-                <TextBlock
-                    FontSize="36"
-                    FontWeight="Bold"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                       Foreground="White"
-                    >Please enter monthly rental amount:</TextBlock>
-
-                <TextBox x:ConnectionId='3'
-                    x:Name="tbRental"
-                    FontSize="36"
-                    Foreground="White"
-                    Grid.Row="0"
-                    Grid.Column="1"></TextBox>
-            </Grid>
-            <Button x:ConnectionId='2' x:Name="btnSubmit"
+        <Button x:ConnectionId='4' x:Name="btnSubmit"
                     HorizontalAlignment="Center" 
-                    FontSize="38"
+                    FontSize="34"
+                    Margin="0 400 0 100"
                                            >Submit</Button>
         </StackPanel>
-    </Grid>
+
 </Page>
 

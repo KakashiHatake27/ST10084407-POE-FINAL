@@ -25,13 +25,16 @@
 
 
         </Grid>
-        <StackPanel HorizontalAlignment="Center" 
-                   VerticalAlignment="Center">
-        <TextBlock FontSize="72"
-                   VerticalAlignment="Center" Foreground="White" FontWeight="ExtraBold"
-                   >Residential Section</TextBlock>
+        <TextBlock FontSize="72" 
+                   HorizontalAlignment="Center"
+                   Margin="0 20 0 70 "
+                   Foreground="White" 
+                   FontWeight="ExtraBold">
+            Residential</TextBlock>
 
-            <Grid>
+        <StackPanel HorizontalAlignment="Center" >
+
+            <Grid Margin=" 0 250 0 0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -39,8 +42,11 @@
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
 
+                <TextBlock Grid.ColumnSpan="2" Grid.Row="0" FontSize="54">Please choose your residential status</TextBlock>
+                
                 <Button x:ConnectionId='2'                      Grid.Row="0" Grid.Column="0" Foreground="Black" FontSize="72" Margin="10 100 10 10">Renting</Button>
 
                 <Button x:ConnectionId='3' x:Name="btnHouse"                        Grid.Row="0" Grid.Column="1" Foreground="Black" FontSize="72" Margin="10 100 10 10">Buying a house</Button>

@@ -8,61 +8,41 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Grid Background="Black">
-            <Grid x:ConnectionId='4' x:Name="BG">
+    <StackPanel>
+        <StackPanel.Background>
 
-                <Grid.Background>
-
-                    <ImageBrush x:ConnectionId='5' x:Name="_img_bg"
+                    <ImageBrush x:ConnectionId='2' x:Name="_img_bg"
                                 ImageSource="Assets/Img/coins.jpg"
                                 Stretch="Fill"/>
 
-                </Grid.Background>
+                </StackPanel.Background>
 
-            </Grid>
 
-        </Grid>
 
-        <StackPanel>
         
-        <TextBlock FontSize="72" 
+        <TextBlock FontSize="52" 
                    HorizontalAlignment="Center" 
                    VerticalAlignment="Center" 
                    Foreground="White" 
+                   Margin="0 20 0 70 "
                    FontWeight="ExtraBold">
             Income</TextBlock>
 
-            <Grid Margin="0 200 0 150">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
 
-                <TextBlock
-                    Margin="100 0 0 10"
-                    FontWeight="Bold"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    Foreground="White"
-                  FontSize="32"  >Enter Gross monthly income(before taxes):
-                </TextBlock>
+        <TextBox x:ConnectionId='3' x:Name="tbIncome"
+                         Header="Gross income"
+                      Margin="300 20 300 20"   
+                         PlaceholderText="Please enter your Gross monthly income(before taxes)"
+                    Foreground="White"/>
 
-                <TextBox x:ConnectionId='3' x:Name="tbIncome"
-                    Grid.Column="1"
-                    Grid.Row="0"
-                    Margin="35 0 75 0"
-                    FontSize="32"></TextBox>
-            </Grid>
 
-            <Button x:ConnectionId='2' x:Name="btnSubmit"
+        <Button x:ConnectionId='4' x:Name="btnSubmit"
                 HorizontalAlignment="Center"
+                    Margin="0 200 0 100"
+                                       
                 FontSize="34">Submit</Button>
             
         </StackPanel>
-    </Grid>
+ 
 </Page>
 

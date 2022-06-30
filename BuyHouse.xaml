@@ -19,7 +19,6 @@
 
         <TextBlock FontSize="72" 
                    HorizontalAlignment="Center" 
-                   VerticalAlignment="Center" 
                    Margin="0 20 0 70 "
                    Foreground="White" 
                    FontWeight="ExtraBold">

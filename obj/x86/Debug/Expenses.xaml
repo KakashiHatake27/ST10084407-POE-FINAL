@@ -19,7 +19,7 @@
 
         <TextBlock FontSize="52" 
                    FontWeight="ExtraBold"
-                   Margin="0 30"
+                   Margin="0 20 0 70 "
                    HorizontalAlignment="Center"
                        Foreground="White"
                    >Expenses</TextBlock>

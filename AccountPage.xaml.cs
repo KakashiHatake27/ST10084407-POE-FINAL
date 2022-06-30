@@ -35,10 +35,9 @@ namespace PoePartThreeFinal
             string expenseList = acc.displayAllExpenses() + "\n" + vehicle.showVehicle();
 
             tbIncome.Text = acc.getIncome().ToString();
-            //tbExpense.Text = expenseList;
-            tbExpense.Text = store.ReadDataCustom("Vehicle");
+            tbExpense.Text = store.ReadDataCustom("Expense");
             //tbCar.Text = store.ReadDataCustom("Vehicle");
-            tbCar.Text = store.ReadData();
+            tbCar.Text = store.ReadDataCustom("Vehicle");
             //tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
         }
     }

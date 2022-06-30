@@ -6,6 +6,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -46,9 +47,21 @@ namespace PoePartThreeFinal
             await ApplicationViewSwitcher.SwitchAsync(newViewId, currentViewId, ApplicationViewSwitchingOptions.ConsolidateViews);
         }
 
-        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
+            HomeLoan hl = new HomeLoan();
+            Storage store = new Storage();
 
+            hl.PurchasePrice = Convert.ToDouble(tbPurchase.Text);
+            hl.TotalDeposit = Convert.ToDouble(tbDeposit.Text);
+            hl.Interest = Convert.ToInt32(tbInterest.Text);
+            hl.MonthsRepay = Convert.ToInt32(tbMonthsRepay.Text);
+
+            await store.WriteData(hl.displayInfo());
+
+            var messageDialog = new MessageDialog("Residential data added successfully");
+
+            await messageDialog.ShowAsync();
 
             ShowNewView();
         }

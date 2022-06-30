@@ -17,6 +17,14 @@ namespace PoePartThreeFinal
         private double totalOutstanding;
         private double homeLoanRepayments;
 
+        public double PurchasePrice { get => purchasePrice; set => purchasePrice = value; }
+        public double TotalDeposit { get => totalDeposit; set => totalDeposit = value; }
+        public double Interest { get => interest; set => interest = value; }
+        public int MonthsRepay { get => monthsRepay; set => monthsRepay = value; }
+        public double PrincipleAmount { get => principleAmount; set => principleAmount = value; }
+        public double TotalOutstanding { get => totalOutstanding; set => totalOutstanding = value; }
+        public double HomeLoanRepayments { get => homeLoanRepayments; set => homeLoanRepayments = value; }
+
 
         ///
         /// This function gets the user's input for the home loan and then calls the function to
@@ -30,20 +38,32 @@ namespace PoePartThreeFinal
             Console.WriteLine("Please enter the following details for a home loan: ");
 
             Console.Write("\nPurchase price of property: R ");
-            purchasePrice = Convert.ToDouble(Console.ReadLine());
+            PurchasePrice = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Total Deposit: R ");
-            totalDeposit = Convert.ToDouble(Console.ReadLine());
+            TotalDeposit = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Interest rate (in percentage %): ");
-            interest = Convert.ToDouble(Console.ReadLine());
+            Interest = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Number of months to complete payment(240 - 360): ");
-            monthsRepay = Int32.Parse(Console.ReadLine());
+            MonthsRepay = Int32.Parse(Console.ReadLine());
 
             /* Calling the function to calculate the monthly loan repayment. */
             calcMonthlyLoanRepayment();
         }
+
+
+        public string displayInfo() {
+
+            string info = "House Purchase price - R" + PurchasePrice.ToString() +
+                "\nHouse Total Deposit - R" + TotalDeposit.ToString() +
+                "\nHouse Interest " + Interest.ToString() + "%" +
+                "\nHouse Months to repay " + MonthsRepay.ToString();
+
+            return info;
+        }
+
 
         /// 
         /// Calculate the monthly loan repayment by taking the principle amount, interest rate and the
@@ -56,20 +76,20 @@ namespace PoePartThreeFinal
 
             /* This is calculating the principle amount, interest rate and the number of years to repay
             the loan. */
-            principleAmount = purchasePrice - totalDeposit;
-            interest = interest / 100;
-            int years = monthsRepay / 12;
+            PrincipleAmount = PurchasePrice - TotalDeposit;
+            Interest = Interest / 100;
+            int years = MonthsRepay / 12;
 
             /* Calculating the total outstanding amount of the loan. */
-            totalOutstanding = principleAmount * (1 + (interest * years));
+            TotalOutstanding = PrincipleAmount * (1 + (Interest * years));
 
             /* This is calculating the monthly loan repayment by taking the total outstanding amount of
             the loan and dividing it by the number of months to repay the loan. The monthly loan
             repayment is then rounded to 2 decimal places. */
-            homeLoanRepayments = totalOutstanding / monthsRepay;
-            homeLoanRepayments = Math.Round(homeLoanRepayments, 2);
+            HomeLoanRepayments = TotalOutstanding / MonthsRepay;
+            HomeLoanRepayments = Math.Round(HomeLoanRepayments, 2);
 
-            return homeLoanRepayments;
+            return HomeLoanRepayments;
         }
 
 

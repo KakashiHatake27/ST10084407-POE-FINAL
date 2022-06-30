@@ -59,6 +59,10 @@ namespace PoePartThreeFinal
             addExpense("Rental", rental);
         }
 
+        public double getRental() {
+            return rental;
+        }
+
         /// The function getIncome() gets the gross monthly income from the user and increases the
         /// balance by the gross monthly income.
         /// returns

@@ -31,7 +31,7 @@ namespace PoePartThreeFinal
         Account account = new Account();
         //ExpensesClass exp = new ExpensesClass();
 
-        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
             account.addExpense("Monthly Tax", Convert.ToDouble(tbMonthlyTax.Text));
             account.addExpense("Groceries", Convert.ToDouble(tbGroceries.Text));
@@ -40,9 +40,20 @@ namespace PoePartThreeFinal
             account.addExpense("Phone", Convert.ToDouble(tbPhone.Text));
             account.addExpense("Other", Convert.ToDouble(tbOther.Text));
 
+            Storage store = new Storage();
+
+
+            var messageDialog2 = new MessageDialog(account.displayAllExpenses());
+
+            await messageDialog2.ShowAsync();
+
+            await store.WriteData(account.displayAllExpenses());
+            //await store.WriteData("Total Expense " + account.calcTotalExpenses().ToString());
+
+
             var messageDialog = new MessageDialog("Expenses added successfully");
 
-            messageDialog.ShowAsync();
+           await messageDialog.ShowAsync();
         }
     }
 }
