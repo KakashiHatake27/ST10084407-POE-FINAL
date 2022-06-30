@@ -34,11 +34,11 @@ namespace PoePartThreeFinal
 
             string expenseList = acc.displayAllExpenses() + "\n" + vehicle.showVehicle();
 
-            tbIncome.Text = acc.getIncome().ToString();
-            tbExpense.Text = store.ReadDataCustom("Expense");
-            //tbCar.Text = store.ReadDataCustom("Vehicle");
-            tbCar.Text = store.ReadDataCustom("Vehicle");
-            //tbExpense.Text = "MOney: 123\nMOney: 123\nMOney: 123\nMOney: 123";
+            tbIncome.Text = store.ReadData("Income");
+            tbExpense.Text = store.ReadData("Expense");
+            tbCar.Text = store.ReadData("Vehicle");
+            tbBalance.Text = "Balance";
+            //tbBalance.Text = store.ReadData("Balance");
         }
     }
 }

@@ -96,7 +96,8 @@
 
         </Grid>
 
-       
+        <TextBlock x:Name="tbBalance"
+                   Margin="350 100">Balance:</TextBlock>
     </StackPanel>
     
     

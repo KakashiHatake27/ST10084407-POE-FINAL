@@ -24,36 +24,36 @@ namespace PoePartThreeFinal
             System.Diagnostics.Debug.WriteLine(String.Format("File is located at {0}", file.Path.ToString()));
         }
 
-        public string ReadData()
-        {
-            assignFile();
+        //public string ReadData()
+        //{
+        //    assignFile();
 
-            try
-            {
-                StreamReader reader = new StreamReader(filePath);
-                StringBuilder builder = new StringBuilder();
-                string line = "";
+        //    try
+        //    {
+        //        StreamReader reader = new StreamReader(filePath);
+        //        StringBuilder builder = new StringBuilder();
+        //        string line = "";
 
-                int counter = 0;
+        //        int counter = 0;
 
-                while ((line = reader.ReadLine()) != null)
-                {
-                    counter++;
-                    builder.AppendLine(counter.ToString() + " - " + line);
-                }
-                reader.Close();
-                return builder.ToString();
-            }
-            catch (Exception ex)
-            {
-                return ex.ToString();
-            }
-
-
-        }
+        //        while ((line = reader.ReadLine()) != null)
+        //        {
+        //            counter++;
+        //            builder.AppendLine(counter.ToString() + " - " + line);
+        //        }
+        //        reader.Close();
+        //        return builder.ToString();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return ex.ToString();
+        //    }
 
 
-        public string ReadDataCustom(string section) 
+        //}
+
+
+        public string ReadData(string section) 
         {
             assignFile();
 

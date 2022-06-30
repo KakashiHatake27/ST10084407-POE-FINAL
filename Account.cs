@@ -19,7 +19,7 @@ namespace PoePartThreeFinal
         /* Declaring the variables. */
         private double grossMonthlyIncome;
         private double accountBalance;
-        private double rental;
+        private double Rental;
         
 
         public double AccountBalance { get => accountBalance; set => accountBalance = value; }
@@ -56,11 +56,12 @@ namespace PoePartThreeFinal
         }
 
         public void setRental(double rental) {
+            Rental = rental;
             addExpense("Rental", rental);
         }
 
         public double getRental() {
-            return rental;
+            return Rental;
         }
 
         /// The function getIncome() gets the gross monthly income from the user and increases the
